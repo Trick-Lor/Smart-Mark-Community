@@ -1,0 +1,114 @@
+{
+  "en": [
+    {
+      "text": "Core features",
+      "items": [
+        {
+          "text": "Element Marking",
+          "link": "/guide/element-marking"
+        },
+        {
+          "text": "Free Draw",
+          "link": "/guide/free-draw"
+        },
+        {
+          "text": "Element Merge",
+          "link": "/guide/element-merge"
+        },
+        {
+          "text": "Shape and Fit",
+          "link": "/guide/shape-and-fit"
+        }
+      ]
+    },
+    {
+      "text": "Smaller features",
+      "items": [
+        {
+          "text": "Save and Load Layouts",
+          "link": "/guide/save-and-load"
+        },
+        {
+          "text": "Undo and Redo",
+          "link": "/guide/history"
+        },
+        {
+          "text": "Remove Markers",
+          "link": "/guide/cleanup"
+        },
+        {
+          "text": "Marker Colors",
+          "link": "/guide/colors"
+        },
+        {
+          "text": "Mode Toasts",
+          "link": "/guide/notifications"
+        },
+        {
+          "text": "Custom Shortcuts",
+          "link": "/guide/custom-shortcuts"
+        },
+        {
+          "text": "Popup and Options",
+          "link": "/guide/settings"
+        }
+      ]
+    }
+  ],
+  "vi": [
+    {
+      "text": "Tính năng chính",
+      "items": [
+        {
+          "text": "Đánh dấu phần tử",
+          "link": "/vi/guide/element-marking"
+        },
+        {
+          "text": "Vẽ tự do",
+          "link": "/vi/guide/free-draw"
+        },
+        {
+          "text": "Ghép phần tử",
+          "link": "/vi/guide/element-merge"
+        },
+        {
+          "text": "Hình dạng và cách ôm",
+          "link": "/vi/guide/shape-and-fit"
+        }
+      ]
+    },
+    {
+      "text": "Tính năng nhỏ",
+      "items": [
+        {
+          "text": "Lưu và nạp bố cục",
+          "link": "/vi/guide/save-and-load"
+        },
+        {
+          "text": "Hoàn tác và làm lại",
+          "link": "/vi/guide/history"
+        },
+        {
+          "text": "Xoá marker",
+          "link": "/vi/guide/cleanup"
+        },
+        {
+          "text": "Màu marker",
+          "link": "/vi/guide/colors"
+        },
+        {
+          "text": "Toast báo chế độ",
+          "link": "/vi/guide/notifications"
+        },
+        {
+          "text": "Phím tắt tuỳ chỉnh",
+          "link": "/vi/guide/custom-shortcuts"
+        },
+        {
+          "text": "Popup và Options",
+          "link": "/vi/guide/settings"
+        }
+      ]
+    }
+  ]
+}

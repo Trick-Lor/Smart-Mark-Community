@@ -1,0 +1,69 @@
+{
+  "name": "Smart Mark",
+  "url": "https://smartmark.hoducanh.com",
+  "githubUrl": "https://github.com/Trick-Lor/smart-mark-community",
+  "firstGuide": "/guide/element-marking",
+  "title": {
+    "en": "Smart Mark - Mark and highlight any web page with keyboard shortcuts.",
+    "vi": "Smart Mark - Đánh dấu và làm nổi bật mọi trang web bằng phím tắt."
+  },
+  "description": {
+    "en": "Smart Mark lets you mark and highlight any element or area on a web page using keyboard shortcuts - outline elements, draw areas, and save layouts. No toolbar, no menus, no mouse required. No data collected; everything stays on your device.",
+    "vi": "Smart Mark giúp bạn đánh dấu và làm nổi bật mọi phần tử hoặc vùng trên trang web bằng phím tắt: viền phần tử, vẽ vùng tự do và lưu bố cục. Không thanh công cụ, không menu, không cần chuột. Không thu thập dữ liệu; mọi thứ nằm trên máy bạn."
+  },
+  "ogImage": "https://img.youtube.com/vi/6NlwbRJomok/maxresdefault.jpg",
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Smart Mark",
+      "description": "Smart Mark lets you mark and highlight any element or area on a web page using keyboard shortcuts - outline elements, draw areas, and save layouts. No toolbar, no menus, no mouse required. No data collected; everything stays on your device.",
+      "applicationCategory": "BrowserApplication",
+      "operatingSystem": "Chrome",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://smartmark.hoducanh.com"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Smart Mark free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Smart Mark is completely free, with no ads and no accounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it collect my data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. All marker layouts are stored locally on your device (chrome.storage.local) and are never transmitted anywhere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which browser does it work on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Chrome (Manifest V3). It runs on any normal web page, but not on chrome:// internal pages or the Web Store."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I have to memorize shortcuts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every action has a keyboard shortcut, and all of them are rebindable from the options page. A toast shows the active mode as you work."
+          }
+        }
+      ]
+    }
+  ]
+}

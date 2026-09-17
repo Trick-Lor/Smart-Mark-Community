@@ -1,0 +1,14 @@
+{
+  "name": "smart-mark-docs",
+  "private": true,
+  "type": "module",
+  "description": "Smart Mark docs site (smartmark.hoducanh.com), built with VitePress from this folder",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
