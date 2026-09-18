@@ -7,7 +7,7 @@ description: "Rê chuột lên bất kỳ phần tử nào trên trang web - nú
 
 Rê chuột lên bất kỳ phần tử nào trên trang web - nút, ảnh, thẻ hay đoạn văn - rồi thả một marker hình hộp ôm sát phần tử đó. Rất hợp để chỉ điểm trong ảnh chụp màn hình, báo lỗi và bài hướng dẫn.
 
-<!-- media: element-marking -->
+_Video sẽ có sớm._
 
 ## Trước khi bắt đầu
 

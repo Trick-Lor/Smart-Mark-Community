@@ -7,7 +7,7 @@ description: "Draw a rectangular marker anywhere on the page, not tied to any el
 
 Draw a rectangular marker anywhere on the page, not tied to any element. Drag it out freely, or click two opposite corners for precision.
 
-<!-- media: free-draw -->
+_Video coming soon._
 
 ## Before you start
 

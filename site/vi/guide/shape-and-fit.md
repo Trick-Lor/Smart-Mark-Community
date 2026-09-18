@@ -7,7 +7,7 @@ description: "Đổi hình dạng marker (Chữ nhật, Oval, Thoi) và độ ô
 
 Đổi hình dạng marker (Chữ nhật, Oval, Thoi) và độ ôm sát mục tiêu ngay bằng bàn phím. Thay đổi áp dụng cho các marker bạn vẽ tiếp theo, ở mọi chế độ đánh dấu.
 
-<!-- media: shape-and-fit -->
+_Video sẽ có sớm._
 
 ## Trước khi bắt đầu
 

@@ -7,7 +7,7 @@ description: "Change the marker shape (Rectangle, Oval, Diamond) and how tightly
 
 Change the marker shape (Rectangle, Oval, Diamond) and how tightly it fits its target, on the fly with the keyboard. The change applies to the markers you draw next, in any marking mode.
 
-<!-- media: shape-and-fit -->
+_Video coming soon._
 
 ## Before you start
 

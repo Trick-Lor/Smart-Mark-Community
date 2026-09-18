@@ -7,7 +7,7 @@ description: "Một thẻ nhỏ nổi trên trang xác nhận mỗi lần đổi
 
 Một thẻ nhỏ nổi trên trang xác nhận mỗi lần đổi chế độ và mỗi lần nhấn phím tắt, nên bạn luôn biết cái gì đang bật. Có thể tắt nó hoặc ẩn tổ hợp phím.
 
-<!-- media: notifications -->
+![Toast báo chế độ](/media/notifications.gif)
 
 ## Trước khi bắt đầu
 

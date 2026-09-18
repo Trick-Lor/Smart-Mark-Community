@@ -7,7 +7,7 @@ description: "Lưu các marker trên một trang vào một ô có số, rồi k
 
 Lưu các marker trên một trang vào một ô có số, rồi khôi phục bất cứ lúc nào - tối đa 10 ô cho mỗi trang. Rất hợp cho checklist review dùng lại hoặc khi quay lại trang sau.
 
-<!-- media: save-and-load -->
+![Lưu và nạp bố cục](/media/save-and-load.gif)
 
 ## Trước khi bắt đầu
 

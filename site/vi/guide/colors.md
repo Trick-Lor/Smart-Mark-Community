@@ -7,7 +7,7 @@ description: "Cho mỗi chế độ đánh dấu một màu riêng, để marker
 
 Cho mỗi chế độ đánh dấu một màu riêng, để marker phần tử, marker vẽ tự do và marker ghép dễ phân biệt chỉ bằng một cái nhìn.
 
-<!-- media: colors -->
+![Màu marker](/media/colors.gif)
 
 ## Trước khi bắt đầu
 

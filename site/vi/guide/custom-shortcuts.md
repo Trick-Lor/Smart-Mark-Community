@@ -7,7 +7,7 @@ description: "Mọi phím tắt đều đổi được."
 
 Mọi phím tắt đều đổi được. Đặt tổ hợp phím hợp tay bạn ngay trong trang Options - không cần tải lại.
 
-<!-- media: custom-shortcuts -->
+![Phím tắt tuỳ chỉnh](/media/custom-shortcuts.gif)
 
 ## Trước khi bắt đầu
 

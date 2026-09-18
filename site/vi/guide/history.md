@@ -7,7 +7,7 @@ description: "Lùi và tiến qua từng thao tác đánh dấu, nên một lầ
 
 Lùi và tiến qua từng thao tác đánh dấu, nên một lần lỡ tay chỉ cách một phím bấm.
 
-<!-- media: history -->
+![Hoàn tác và làm lại](/media/history.gif)
 
 ## Trước khi bắt đầu
 

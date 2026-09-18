@@ -7,7 +7,7 @@ description: "Every shortcut is rebindable."
 
 Every shortcut is rebindable. Set the key combos that fit your hands from the Options page - no reload needed.
 
-<!-- media: custom-shortcuts -->
+![Custom Shortcuts](/media/custom-shortcuts.gif)
 
 ## Before you start
 

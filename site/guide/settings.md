@@ -7,7 +7,7 @@ description: "Open a compact popup for quick marker settings, or the full Option
 
 Open a compact popup for quick marker settings, or the full Options page for everything - colors, shapes, slots, notifications, and shortcuts - all without leaving the keyboard.
 
-<!-- media: settings -->
+![Popup and Options](/media/settings.gif)
 
 ## Before you start
 

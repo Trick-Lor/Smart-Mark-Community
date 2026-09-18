@@ -7,7 +7,7 @@ description: "Step backward and forward through your marking actions, so a mista
 
 Step backward and forward through your marking actions, so a mistake is never more than one keypress away.
 
-<!-- media: history -->
+![Undo and Redo](/media/history.gif)
 
 ## Before you start
 

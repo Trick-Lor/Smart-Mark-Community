@@ -7,7 +7,7 @@ description: "Xoá một marker bằng cách bấm vào nó, hoặc dọn cả t
 
 Xoá một marker bằng cách bấm vào nó, hoặc dọn cả trang một lần - dùng được ở mọi chế độ đánh dấu.
 
-<!-- media: cleanup -->
+![Xoá marker](/media/cleanup.gif)
 
 ## Trước khi bắt đầu
 

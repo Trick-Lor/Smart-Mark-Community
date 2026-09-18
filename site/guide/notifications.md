@@ -7,7 +7,7 @@ description: "A small floating pill confirms each mode change and shortcut press
 
 A small floating pill confirms each mode change and shortcut press, so you always know what is active. You can turn it off or hide the key combo.
 
-<!-- media: notifications -->
+![Mode Toasts](/media/notifications.gif)
 
 ## Before you start
 

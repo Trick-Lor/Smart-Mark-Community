@@ -2,7 +2,7 @@
  * @file ./site/i18n/vi.mjs
  * @description Vietnamese copy for the docs site, keyed by feature id. Read by .agents/scripts/gen-feature-guides.mjs and gen-landing.mjs; a missing field falls back to English and is printed as a gap, a toneless string aborts the run (lib/toneless-check.mjs). Full diacritics only. Product words stay in English like the extension's own vi locale: Smart Mark, marker, Element / Free draw / Merge, Image pick, Options, Oval, Inscribe / Median / Circumscribe, toast; Rectangle is "Chu nhat" and Diamond is "Thoi" there too.
  * @scope project
- * @updated-at 2026-09-17
+ * @updated-at 2026-09-18
  */
 
 "use strict";
@@ -20,6 +20,7 @@ export const LABELS_VI = {
     keys           : "Phím",
     action         : "Tác dụng",
     videoSoon      : "Video sẽ có sớm.",
+    sinceNote      : "Có từ Smart Mark {version}. Nếu bản bạn đang cài cũ hơn, tính năng này sẽ đến trong lần cập nhật kế tiếp trên Chrome Web Store.",
     rebindNote     : "Các tổ hợp phím trên là mặc định; bạn có thể đổi từng phím trong trang Options.",
     coreFeatures   : "Tính năng chính",
     smallerFeatures: "Tính năng nhỏ",
@@ -67,8 +68,8 @@ const shapeSection = (colorTarget) => ({
 
 /**
  * Per-feature copy: { title, summary, before[], sections[{ heading, lines[] }],
- * shortcutDescs[] } aligned to the English entry of the same id. The seven
- * small features are not translated yet and fall back to English.
+ * shortcutDescs[] } aligned to the English entry of the same id. Every feature
+ * is translated; a field left out falls back to English and is reported.
  */
 export const FEATURES_VI = {
     "element-marking": {
@@ -324,5 +325,232 @@ export const FEATURES_VI = {
             }
         ],
         shortcutDescs: ["mở popup", "mở trang Options"]
+    },
+    "image-marking": {
+        title  : "Đánh dấu theo ảnh",
+        summary: "Khi cả trang là một ảnh lớn, một video, một SVG hay một ảnh chụp màn hình thì không có phần tử nào để rê chuột. Đánh dấu theo ảnh quét trang, tìm các khối nhìn thấy được và cho bạn chọn bằng cú bấm hoặc bằng số.",
+        before : BEFORE_COMMON,
+        sections: [
+            {
+                heading: "Từng bước",
+                lines: [
+                    "1. Nhấn `Alt + I`. Trang mờ đi và một vạch quét chạy qua màn hình trong lúc Smart Mark phân tích.",
+                    "2. Mỗi khối tìm được có một khung tím kèm số, và một toast báo tìm được bao nhiêu khối.",
+                    "3. Bấm vào một khối, hoặc gõ số của nó, để đặt marker lên khối đó. Chọn bao nhiêu khối cũng được.",
+                    "4. Nhấn `Esc` để thoát chế độ. Các khung số biến mất, marker của bạn vẫn còn."
+                ]
+            },
+            {
+                heading: "Chọn bằng số",
+                lines: [
+                    "- Các khối đang thấy trên màn hình được đánh số theo thứ tự đọc (trên xuống, rồi trái sang phải) và đánh số lại khi bạn cuộn.",
+                    "- Khi có hơn 9 khối trên màn hình, gõ nhanh hai chữ số: `1` rồi `5` chọn khối 15. Gõ riêng `0` chọn khối 10."
+                ]
+            },
+            {
+                heading: "Tinh chỉnh việc nhận diện",
+                lines: [
+                    "- Mở trang Options và mở rộng mục Image Detection.",
+                    "- Các thanh trượt Detail, Denoise, Color sensitivity (1-5) và Min block size quyết định thế nào thì tính là một khối. Advanced parameters hiện các giá trị gốc; Reset detection trả tất cả về như cũ.",
+                    "- Capture method: Screenshot (mặc định, chính xác từng điểm ảnh) hoặc Render (không cuộn trang).",
+                    "- Detection animation, Scan speed, Badge size và Hotkey digits đổi cách hiển thị lúc quét và cách bạn chọn khối.",
+                    "- Thử thiết lập trên ảnh của chính bạn: trong khung xem trước, dùng Load image, hoặc thả hay dán một ảnh chụp màn hình."
+                ]
+            },
+            {
+                heading: "Mẹo",
+                lines: [
+                    "- Marker tạo ở đây là marker bình thường: hoàn tác, làm lại, ô lưu và xoá tất cả đều dùng được.",
+                    "- Việc phân tích chạy ngay trong trình duyệt của bạn. Ảnh của trang không bao giờ được tải lên đâu cả."
+                ]
+            }
+        ],
+        shortcutDescs: ["quét trang và hiện các khối có số (nhấn lần nữa để thoát)", "thoát chế độ và xoá các khung số"]
+    },
+    "themes": {
+        title  : "Theme giao diện",
+        summary: "Đổi diện mạo của popup và trang Options. Có sẵn sáu theme, cả sáng lẫn tối. Marker trên trang web thì giống nhau ở mọi theme.",
+        before : ["Mở trang Options (`Ctrl + Alt + ,`)."],
+        sections: [
+            {
+                heading: "Từng bước",
+                lines: [
+                    "1. Mở trang Options và mở rộng mục Appearance.",
+                    "2. Chọn một UI Theme: Hand Drawn (mặc định), Hand Drawn Dark, AI Vibe, AI Vibe Dark, Neon hoặc VS Code.",
+                    "3. Popup và mọi tab Options đang mở đổi ngay lập tức - không cần tải lại."
+                ]
+            },
+            {
+                heading: "Mẹo",
+                lines: [
+                    "- Theme chỉ đổi giao diện các trang của riêng Smart Mark. Marker, toast và lớp phủ trên trang web không bị ảnh hưởng.",
+                    "- Theme được lưu cùng các thiết lập khác, nên profile cũng nhớ nó."
+                ]
+            }
+        ],
+        shortcutDescs: ["mở trang Options, nơi có ô chọn theme"]
+    },
+    "settings-search": {
+        title  : "Tìm kiếm thiết lập",
+        summary: "Tìm bất kỳ thiết lập, mục hay phím tắt nào bằng cách gõ một từ hoặc một tổ hợp phím. Dùng được ở cả popup lẫn trang Options, và nó chỉ lọc rồi nhảy tới - không bao giờ tự chạy một hành động.",
+        before : ["Mở popup (`Ctrl + ,`) hoặc trang Options (`Ctrl + Alt + ,`)."],
+        sections: [
+            {
+                heading: "Từng bước",
+                lines: [
+                    "1. Ô tìm kiếm nằm ngay dưới phần đầu trang. Ở trang Options, nhấn `/` để nhảy vào ô đó.",
+                    "2. Gõ một từ như `color` hoặc `toast`. Mục không khớp sẽ ẩn đi; mục khớp tự mở kèm số kết quả và phần chữ khớp được tô sáng.",
+                    "3. Gõ một tổ hợp phím như `alt+i` (hoặc `alt i`) để tìm phím tắt đang gắn với các phím đó. Sau khi bạn đổi phím tắt, tìm kiếm sẽ thấy phím mới.",
+                    "4. Nhấn `Esc` hoặc nút x để xoá. Mọi mục trở về trạng thái mở hoặc đóng như trước đó."
+                ]
+            },
+            {
+                heading: "Trong popup",
+                lines: [
+                    "- Kết quả chỉ có ở trang Options được liệt kê dưới nhóm In Options.",
+                    "- Bấm vào một kết quả để mở trang Options, cuộn tới đúng thiết lập đó và thiết lập nhấp nháy."
+                ]
+            },
+            {
+                heading: "Mẹo",
+                lines: [
+                    "- Từ tiếng Việt khớp được dù bạn gõ có dấu hay không dấu."
+                ]
+            }
+        ],
+        shortcutDescs: ["mở popup", "mở trang Options"]
+    },
+    "profiles": {
+        title  : "Profile và preset",
+        summary: "Lưu toàn bộ thiết lập của bạn - mọi tuỳ chọn, các ô lưu marker và các preset - thành một profile có tên. Chuyển qua lại giữa các profile, áp một preset như Highlighter, mang thiết lập sang máy khác bằng một file, và hoàn tác thay đổi bạn không ưng.",
+        before : ["Mở trang Options (`Ctrl + Alt + ,`)."],
+        sections: [
+            {
+                heading: "Từng bước",
+                lines: [
+                    "1. Mở trang Options và mở rộng mục Profiles. Lần đầu, Smart Mark tạo Default profile từ thiết lập hiện tại của bạn.",
+                    "2. Đổi bất kỳ thiết lập nào. Thanh profile hiện modified (N), và See changes liệt kê những gì khác đi. Chưa có gì được ghi vào profile cho tới khi bạn lưu.",
+                    "3. Save ghi đè profile đang chọn, trước đó hiện danh sách trước / sau để bạn bỏ bớt thay đổi nào tuỳ ý. Save as lưu thành profile mới với tên mới.",
+                    "4. Chọn profile khác để chuyển. Nếu còn thay đổi chưa lưu, bạn được hỏi Save first, Discard hay Cancel, và thấy danh sách thay đổi trước khi áp dụng."
+                ]
+            },
+            {
+                heading: "Preset",
+                lines: [
+                    "- Một preset chỉ đổi vài thiết lập. Smart Mark có sẵn năm cái: Defaults, Highlighter (nền vàng 35% với nét mảnh), Bug report, High contrast và Subtle.",
+                    "- Rê chuột lên một dòng preset để xem thử trong khung xem trước; Apply hiện danh sách thay đổi trước khi áp.",
+                    "- Restore default presets khôi phục preset có sẵn mà bạn đã xoá."
+                ]
+            },
+            {
+                heading: "Xuất và nhập",
+                lines: [
+                    "- Export tải profile về thành file JSON. Export with comments (.jsonc) ghi file có chú thích; Export all tải mỗi profile một file.",
+                    "- Include marker slots quyết định các ô lưu marker có đi kèm profile hay không.",
+                    "- Import đọc file profile hoặc file preset. File trùng tên sẽ ghi đè cái đang có sau khi bạn xác nhận danh sách thay đổi.",
+                    "- Thiết lập lạ và giá trị ngoài khoảng cho phép bị bỏ qua kèm cảnh báo; phần còn lại của file vẫn được nạp."
+                ]
+            },
+            {
+                heading: "Mẹo",
+                lines: [
+                    "- Undo đảo lại thay đổi hàng loạt gần nhất (áp preset, chuyển profile, nhập file hoặc reset). Nó giữ một mức, nên nhấn lần nữa là làm lại thay đổi đó.",
+                    "- Các nút Reset đưa về giá trị của profile đang chọn, không phải mặc định gốc."
+                ]
+            }
+        ],
+        shortcutDescs: ["mở trang Options, nơi có mục Profiles"]
+    },
+    "screenshot-export": {
+        title  : "Chụp màn hình kèm marker",
+        summary: "Tải về một ảnh PNG của trang có vẽ sẵn các marker của bạn - sẵn sàng để dán vào báo cáo lỗi, tài liệu hay khung chat.",
+        before : ["Đã cài Smart Mark.", "Một trang có ít nhất một marker."],
+        sections: [
+            {
+                heading: "Từng bước",
+                lines: [
+                    "1. Đánh dấu những gì bạn muốn chỉ ra.",
+                    "2. Nhấn `Ctrl + Shift + Alt + S`.",
+                    "3. Smart Mark dựng ảnh trang cùng các marker và tải về file `smart-mark-<site>-<date>.png`.",
+                    "4. Một toast xác nhận đã tải, hoặc báo cho bạn khi không dựng được ảnh trang."
+                ]
+            },
+            {
+                heading: "Mẹo",
+                lines: [
+                    "- Toast và các khung số của chế độ đánh dấu theo ảnh không xuất hiện trong ảnh.",
+                    "- Ảnh được tạo ngay trong trình duyệt của bạn. Không có gì được tải lên."
+                ]
+            }
+        ],
+        shortcutDescs: ["tải về ảnh PNG của trang kèm các marker"]
+    },
+    "marker-style": {
+        title  : "Kiểu marker",
+        summary: "Quyết định marker trông ra sao và hoạt động thế nào: độ dày nét, nét liền, nét đứt hay nét chấm, độ đậm của nền, lớp phủ tối đến mức nào, toast hiện bao lâu và hoàn tác nhớ bao nhiêu bước. Mọi thay đổi áp dụng ngay.",
+        before : ["Mở trang Options (`Ctrl + Alt + ,`)."],
+        sections: [
+            {
+                heading: "Từng bước",
+                lines: [
+                    "1. Mở trang Options và mở rộng mục Colors & Style. Khung xem trước vẽ lại sau mỗi thay đổi.",
+                    "2. Marker: độ dày nét (1-10 px), kiểu nét (solid, dashed, dotted) và độ đậm nền (0% giữ kiểu chỉ có viền như cũ).",
+                    "3. Preview: độ dày và nền của đường viền bạn thấy khi rê chuột hoặc khi vẽ, cùng độ tối của lớp phủ (0-60%).",
+                    "4. Thời gian hiện toast (0,5-5 giây) nằm trong mục Notifications; số bước hoàn tác (10-500) nằm trong mục Marker Configuration.",
+                    "5. Reset colors & style đưa các giá trị này về profile đang chọn."
+                ]
+            },
+            {
+                heading: "Kiểu bút dạ quang",
+                lines: [
+                    "- Mở mục Profiles và áp preset Highlighter: nền vàng 35% với nét mảnh, giống bút dạ quang."
+                ]
+            },
+            {
+                heading: "Mẹo",
+                lines: [
+                    "- Rê chuột lên bất kỳ dòng tuỳ chọn nào: một ghi chú giải thích nó và khung xem trước chỉ vào phần nó thay đổi.",
+                    "- Màu và kiểu kết hợp với nhau: ô chọn màu đặt sắc màu, các dòng kiểu đặt độ đậm."
+                ]
+            }
+        ],
+        shortcutDescs: ["mở trang Options, nơi có các dòng chỉnh kiểu"]
+    },
+    "site-control": {
+        title  : "Khi gõ chữ và tắt theo site",
+        summary: "Smart Mark không cản đường bạn: phím tắt tạm nghỉ khi bạn đang gõ chữ, một phím chỉ bị giữ lại khi thật sự có việc để làm, và bạn có thể tắt extension trên những site bạn chọn.",
+        before : ["Đã cài Smart Mark."],
+        sections: [
+            {
+                heading: "Khi bạn đang gõ chữ",
+                lines: [
+                    "- Khi con trỏ nằm trong ô nhập, vùng văn bản hay trình soạn thảo, mọi phím tắt của Smart Mark được nhường cho trang. `Ctrl + Z` hoàn tác chữ bạn gõ như bình thường.",
+                    "- `Esc` vẫn thoát chế độ đánh dấu."
+                ]
+            },
+            {
+                heading: "Chỉ khi có việc để làm",
+                lines: [
+                    "- `Ctrl + Z` và `Ctrl + Y` chỉ bị giữ lại khi có lịch sử marker để hoàn tác hoặc làm lại.",
+                    "- Các phím xoá tất cả chỉ bị giữ lại khi trang có marker tương ứng.",
+                    "- Ngoài ra trang nhận phím như bình thường và không có toast nào hiện lên."
+                ]
+            },
+            {
+                heading: "Tắt Smart Mark trên một site",
+                lines: [
+                    "1. Mở popup và dùng Disable on this site ở chân popup, hoặc",
+                    "2. mở trang Options, mở rộng mục Site access, gõ tên miền rồi nhấn Add. Xoá một site cũng ở danh sách đó.",
+                    "3. Trên site có trong danh sách và các tên miền con của nó, mọi phím tắt đều tắt. Marker đã có trên trang vẫn hiển thị, và thay đổi áp dụng không cần tải lại."
+                ]
+            },
+            {
+                heading: "Tắt riêng một phím tắt",
+                lines: [
+                    "- Trong Options > Keyboard Shortcuts, bỏ chọn ô của một phím tắt để tắt riêng phím đó. Tổ hợp phím của nó vẫn được giữ để dùng sau."
+                ]
+            }
+        ],
+        shortcutDescs: ["mở popup (Disable on this site nằm ở chân popup)", "mở trang Options (mục Site access)"]
     }
 };

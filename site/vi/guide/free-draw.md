@@ -7,7 +7,7 @@ description: "Vẽ một marker chữ nhật ở bất kỳ đâu trên trang, k
 
 Vẽ một marker chữ nhật ở bất kỳ đâu trên trang, không phụ thuộc phần tử nào. Kéo thả tự do, hoặc bấm hai góc đối diện để chính xác hơn.
 
-<!-- media: free-draw -->
+_Video sẽ có sớm._
 
 ## Trước khi bắt đầu
 

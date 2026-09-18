@@ -7,7 +7,7 @@ description: "Mark a precise rectangular area defined by two elements."
 
 Mark a precise rectangular area defined by two elements. The box spans from the first element's top-left corner to the second element's bottom-right corner - perfect for marking a whole section that covers several elements.
 
-<!-- media: element-merge -->
+_Video coming soon._
 
 ## Before you start
 

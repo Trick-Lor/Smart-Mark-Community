@@ -7,7 +7,7 @@ description: "Give each marking mode its own color, so element marks, free-draw 
 
 Give each marking mode its own color, so element marks, free-draw marks, and merges are easy to tell apart at a glance.
 
-<!-- media: colors -->
+![Marker Colors](/media/colors.gif)
 
 ## Before you start
 

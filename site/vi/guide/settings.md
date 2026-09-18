@@ -7,7 +7,7 @@ description: "Mở popup gọn để chỉnh nhanh marker, hoặc trang Options 
 
 Mở popup gọn để chỉnh nhanh marker, hoặc trang Options đầy đủ cho mọi thứ - màu, hình dạng, ô lưu, thông báo và phím tắt - tất cả không rời bàn phím.
 
-<!-- media: settings -->
+![Popup và Options](/media/settings.gif)
 
 ## Trước khi bắt đầu
 

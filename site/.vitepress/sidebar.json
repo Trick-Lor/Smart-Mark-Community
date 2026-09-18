@@ -18,6 +18,10 @@
         {
           "text": "Shape and Fit",
           "link": "/guide/shape-and-fit"
+        },
+        {
+          "text": "Image Marking",
+          "link": "/guide/image-marking"
         }
       ]
     },
@@ -51,6 +55,30 @@
         {
           "text": "Popup and Options",
           "link": "/guide/settings"
+        },
+        {
+          "text": "UI Themes",
+          "link": "/guide/themes"
+        },
+        {
+          "text": "Settings Search",
+          "link": "/guide/settings-search"
+        },
+        {
+          "text": "Profiles and Presets",
+          "link": "/guide/profiles"
+        },
+        {
+          "text": "Screenshot with Markers",
+          "link": "/guide/screenshot-export"
+        },
+        {
+          "text": "Marker Style",
+          "link": "/guide/marker-style"
+        },
+        {
+          "text": "Typing and Site Access",
+          "link": "/guide/site-control"
         }
       ]
     }
@@ -74,6 +102,10 @@
         {
           "text": "Hình dạng và cách ôm",
           "link": "/vi/guide/shape-and-fit"
+        },
+        {
+          "text": "Đánh dấu theo ảnh",
+          "link": "/vi/guide/image-marking"
         }
       ]
     },
@@ -107,6 +139,30 @@
         {
           "text": "Popup và Options",
           "link": "/vi/guide/settings"
+        },
+        {
+          "text": "Theme giao diện",
+          "link": "/vi/guide/themes"
+        },
+        {
+          "text": "Tìm kiếm thiết lập",
+          "link": "/vi/guide/settings-search"
+        },
+        {
+          "text": "Profile và preset",
+          "link": "/vi/guide/profiles"
+        },
+        {
+          "text": "Chụp màn hình kèm marker",
+          "link": "/vi/guide/screenshot-export"
+        },
+        {
+          "text": "Kiểu marker",
+          "link": "/vi/guide/marker-style"
+        },
+        {
+          "text": "Khi gõ chữ và tắt theo site",
+          "link": "/vi/guide/site-control"
         }
       ]
     }

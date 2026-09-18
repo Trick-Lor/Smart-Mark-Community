@@ -7,7 +7,7 @@ description: "Đánh dấu chính xác một vùng chữ nhật xác định b�
 
 Đánh dấu chính xác một vùng chữ nhật xác định bởi hai phần tử. Hộp trải từ góc trên trái của phần tử thứ nhất tới góc dưới phải của phần tử thứ hai - lý tưởng để đánh dấu cả một khu vực gồm nhiều phần tử.
 
-<!-- media: element-merge -->
+_Video sẽ có sớm._
 
 ## Trước khi bắt đầu
 

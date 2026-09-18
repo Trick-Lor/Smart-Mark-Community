@@ -7,7 +7,7 @@ description: "Save the markers on a page into a numbered slot, then restore them
 
 Save the markers on a page into a numbered slot, then restore them any time - up to 10 slots per page. Great for reusable review checklists or coming back to a page later.
 
-<!-- media: save-and-load -->
+![Save and Load Layouts](/media/save-and-load.gif)
 
 ## Before you start
 

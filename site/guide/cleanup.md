@@ -7,7 +7,7 @@ description: "Remove one marker by clicking it, or clear the whole page at once 
 
 Remove one marker by clicking it, or clear the whole page at once - works across every marking mode.
 
-<!-- media: cleanup -->
+![Remove Markers](/media/cleanup.gif)
 
 ## Before you start
 

@@ -7,7 +7,7 @@ description: "Hover over any element on a web page - a button, image, card, or p
 
 Hover over any element on a web page - a button, image, card, or paragraph - and drop a clean box marker that hugs that element. Great for pointing things out in screenshots, bug reports, and tutorials.
 
-<!-- media: element-marking -->
+_Video coming soon._
 
 ## Before you start
 
