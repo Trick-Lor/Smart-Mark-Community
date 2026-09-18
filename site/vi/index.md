@@ -103,7 +103,7 @@ Có. Smart Mark hoàn toàn miễn phí, không quảng cáo, không cần tài 
 
 ### Nó có thu thập dữ liệu của tôi không?
 
-Không. Mọi bố cục marker được lưu ngay trên máy bạn (chrome.storage.local) và không bao giờ gửi đi đâu.
+Không. Thiết lập và bố cục marker được lưu trong bộ nhớ riêng của Chrome. Nếu bạn bật đồng bộ Chrome, chính Google Chrome sao chép chúng giữa các trình duyệt bạn đã đăng nhập; Smart Mark không có server, không gửi gì cho nhà phát triển hay bên thứ ba, và extension không chứa analytics hay theo dõi nào.
 
 ### Nó chạy trên trình duyệt nào?
 

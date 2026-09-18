@@ -35,7 +35,7 @@ export const LABELS_VI = {
 /** One { q, a } per FAQ entry, same order as FAQ in feature-demos.config.mjs. */
 export const FAQ_VI = [
     { q: "Smart Mark có miễn phí không?", a: "Có. Smart Mark hoàn toàn miễn phí, không quảng cáo, không cần tài khoản." },
-    { q: "Nó có thu thập dữ liệu của tôi không?", a: "Không. Mọi bố cục marker được lưu ngay trên máy bạn (chrome.storage.local) và không bao giờ gửi đi đâu." },
+    { q: "Nó có thu thập dữ liệu của tôi không?", a: "Không. Thiết lập và bố cục marker được lưu trong bộ nhớ riêng của Chrome. Nếu bạn bật đồng bộ Chrome, chính Google Chrome sao chép chúng giữa các trình duyệt bạn đã đăng nhập; Smart Mark không có server, không gửi gì cho nhà phát triển hay bên thứ ba, và extension không chứa analytics hay theo dõi nào." },
     { q: "Nó chạy trên trình duyệt nào?", a: "Google Chrome (Manifest V3). Chạy trên mọi trang web bình thường, nhưng không chạy trên các trang nội bộ chrome:// hay Web Store." },
     { q: "Tôi có phải nhớ hết phím tắt không?", a: "Mọi hành động đều có phím tắt và tất cả đều đổi được trong trang Options. Một toast hiện chế độ đang bật trong lúc bạn làm việc." }
 ];

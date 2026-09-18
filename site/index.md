@@ -103,7 +103,7 @@ Yes. Smart Mark is completely free, with no ads and no accounts.
 
 ### Does it collect my data?
 
-No. All marker layouts are stored locally on your device (chrome.storage.local) and are never transmitted anywhere.
+No. Your settings and marker layouts are saved in Chrome's own storage. If Chrome sync is on, Google Chrome copies them between your signed-in browsers; Smart Mark has no server, sends nothing to the developer or any third party, and the extension contains no analytics or tracking.
 
 ### Which browser does it work on?
 

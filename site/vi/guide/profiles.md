@@ -11,7 +11,7 @@ Lưu toàn bộ thiết lập của bạn - mọi tuỳ chọn, các ô lưu mar
 Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng này sẽ đến trong lần cập nhật kế tiếp trên Chrome Web Store.
 :::
 
-_Video sẽ có sớm._
+![Profile và preset](/media/profiles.gif)
 
 ## Trước khi bắt đầu
 

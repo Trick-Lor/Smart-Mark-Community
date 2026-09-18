@@ -11,7 +11,7 @@ Smart Mark không cản đường bạn: phím tắt tạm nghỉ khi bạn đan
 Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng này sẽ đến trong lần cập nhật kế tiếp trên Chrome Web Store.
 :::
 
-_Video sẽ có sớm._
+![Khi gõ chữ và tắt theo site](/media/site-control.gif)
 
 ## Trước khi bắt đầu
 

@@ -11,7 +11,7 @@ Decide how markers look and behave: line width, solid, dashed or dotted lines, f
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-_Video coming soon._
+![Marker Style](/media/marker-style.gif)
 
 ## Before you start
 

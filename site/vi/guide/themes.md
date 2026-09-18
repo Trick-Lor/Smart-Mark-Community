@@ -11,7 +11,7 @@ description: "Đổi diện mạo của popup và trang Options."
 Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng này sẽ đến trong lần cập nhật kế tiếp trên Chrome Web Store.
 :::
 
-_Video sẽ có sớm._
+![Theme giao diện](/media/themes.gif)
 
 ## Trước khi bắt đầu
 

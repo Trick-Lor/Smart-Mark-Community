@@ -11,7 +11,7 @@ Download a PNG of the page with your markers drawn on it - ready to paste into a
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-_Video coming soon._
+![Screenshot with Markers](/media/screenshot-export.gif)
 
 ## Before you start
 

@@ -11,7 +11,7 @@ Smart Mark stays out of your way: shortcuts pause while you type, a key is only 
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-_Video coming soon._
+![Typing and Site Access](/media/site-control.gif)
 
 ## Before you start
 

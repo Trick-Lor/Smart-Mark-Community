@@ -11,7 +11,7 @@ Quyết định marker trông ra sao và hoạt động thế nào: độ dày n
 Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng này sẽ đến trong lần cập nhật kế tiếp trên Chrome Web Store.
 :::
 
-_Video sẽ có sớm._
+![Kiểu marker](/media/marker-style.gif)
 
 ## Trước khi bắt đầu
 

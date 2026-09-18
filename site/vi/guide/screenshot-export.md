@@ -11,7 +11,7 @@ Tải về một ảnh PNG của trang có vẽ sẵn các marker của bạn - 
 Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng này sẽ đến trong lần cập nhật kế tiếp trên Chrome Web Store.
 :::
 
-_Video sẽ có sớm._
+![Chụp màn hình kèm marker](/media/screenshot-export.gif)
 
 ## Trước khi bắt đầu
 

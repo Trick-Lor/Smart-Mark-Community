@@ -11,7 +11,7 @@ Change the look of the popup and the Options page. Six themes ship, light and da
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-_Video coming soon._
+![UI Themes](/media/themes.gif)
 
 ## Before you start
 

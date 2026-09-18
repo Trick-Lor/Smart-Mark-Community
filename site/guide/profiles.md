@@ -11,7 +11,7 @@ Save your whole set-up - every setting, your marker slots, and your presets - as
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-_Video coming soon._
+![Profiles and Presets](/media/profiles.gif)
 
 ## Before you start
 

@@ -11,7 +11,7 @@ Find any setting, section, or shortcut by typing a word or a key combo. It works
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-_Video coming soon._
+![Settings Search](/media/settings-search.gif)
 
 ## Before you start
 
