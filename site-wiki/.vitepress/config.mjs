@@ -27,7 +27,7 @@ export default defineConfig({
   appearance: false,
   // Agent-facing folder doc and the owner's local notes; never pages. community.mjs also drops
   // CLAUDE.md on copy.
-  srcExclude: ["CLAUDE.md", "REAME.md"],
+  srcExclude: ["CLAUDE.md", "README.md"],
   sitemap: { hostname: meta.url },
   head: [
     ["script", {}, THEME_BOOT],
