@@ -5,7 +5,7 @@ description: "Khi cả trang là một ảnh lớn, một video, một SVG hay m
 
 # Đánh dấu theo ảnh
 
-Khi cả trang là một ảnh lớn, một video, một SVG hay một ảnh chụp màn hình thì không có phần tử nào để rê chuột. Đánh dấu theo ảnh quét trang, tìm các khối nhìn thấy được và cho bạn chọn bằng cú bấm hoặc bằng số.
+Khi cả trang là một ảnh lớn, một video, một SVG hay một ảnh chụp màn hình thì không có phần tử nào để rê chuột. Đánh dấu theo ảnh quét trang, tìm các khối nhìn thấy được và cho bạn chọn bằng cú bấm hoặc bằng một phím.
 
 ::: info
 Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng này sẽ đến trong lần cập nhật kế tiếp trên Chrome Web Store.
@@ -20,27 +20,29 @@ _Video sẽ có sớm._
 
 ## Từng bước
 
-1. Nhấn `Alt + I`. Trang mờ đi và một vạch quét chạy qua màn hình trong lúc Smart Mark phân tích.
-2. Mỗi khối tìm được có một khung tím kèm số, và một toast báo tìm được bao nhiêu khối.
-3. Bấm vào một khối, hoặc gõ số của nó, để đặt marker lên khối đó. Chọn bao nhiêu khối cũng được.
-4. Nhấn `Esc` để thoát chế độ. Các khung số biến mất, marker của bạn vẫn còn.
+1. Nhấn `Alt + I`. Với cách chụp Screenshot, một toast hiện Capturing page 1/N trong lúc Smart Mark cuộn qua trang dài; sau đó trang mờ đi và một vạch quét chạy qua màn hình trong lúc phân tích.
+2. Mỗi khối tìm được có một khung tím kèm nhãn, và một toast báo tìm được bao nhiêu khối. No blocks found hoặc Page analysis failed nghĩa là không có gì để chọn; thử đổi thiết lập nhận diện.
+3. Bấm vào một khối, hoặc bấm phím nhãn của nó, để đặt marker lên khối đó. Chọn bao nhiêu khối cũng được.
+4. Nhấn `Esc` để thoát chế độ. Các khung nhãn biến mất, marker của bạn vẫn còn.
 
-## Chọn bằng số
+## Chọn bằng phím
 
-- Các khối đang thấy trên màn hình được đánh số theo thứ tự đọc (trên xuống, rồi trái sang phải) và đánh số lại khi bạn cuộn.
-- Khi có hơn 9 khối trên màn hình, gõ nhanh hai chữ số: `1` rồi `5` chọn khối 15. Gõ riêng `0` chọn khối 10.
+- Các khối đang thấy trên màn hình được gắn nhãn theo thứ tự đọc (trên xuống, rồi trái sang phải) và gắn lại khi bạn cuộn.
+- Mặc định chín khối đầu mang nhãn `1`-`9`, các khối sau mang chữ `A`-`Z` (bỏ qua I và O). Bấm một phím là chọn ngay.
+- Thích dùng số? Đặt Label style thành Numbers trong trang Options. Khi đó, nếu có hơn 9 khối trên màn hình, gõ nhanh hai chữ số: `1` rồi `5` chọn khối 15; gõ riêng `0` chọn khối 10.
 
 ## Tinh chỉnh việc nhận diện
 
 - Mở trang Options và mở rộng mục Image Detection.
 - Các thanh trượt Detail, Denoise, Color sensitivity (1-5) và Min block size quyết định thế nào thì tính là một khối. Advanced parameters hiện các giá trị gốc; Reset detection trả tất cả về như cũ.
 - Capture method: Screenshot (mặc định, chính xác từng điểm ảnh) hoặc Render (không cuộn trang).
-- Detection animation, Scan speed, Badge size và Hotkey digits đổi cách hiển thị lúc quét và cách bạn chọn khối.
+- Detection animation, Scan speed, Reveal animation (khối hiện dần theo vạch quét, hoặc hiện hết một lần lúc xong), Badge size, Hotkey labels và Label style đổi cách hiển thị lúc quét và cách bạn chọn khối.
 - Thử thiết lập trên ảnh của chính bạn: trong khung xem trước, dùng Load image, hoặc thả hay dán một ảnh chụp màn hình.
 
 ## Mẹo
 
 - Marker tạo ở đây là marker bình thường: hoàn tác, làm lại, ô lưu và xoá tất cả đều dùng được.
+- Lớp bạn đã ẩn vẫn ẩn khi quét, nên hãy ẩn banner trước nếu nó che chỗ bạn cần (xem Ẩn lớp).
 - Việc phân tích chạy ngay trong trình duyệt của bạn. Ảnh của trang không bao giờ được tải lên đâu cả.
 
 ## Phím tắt dùng trong bài

@@ -20,10 +20,22 @@ Lưu các marker trên một trang vào một ô có số, rồi khôi phục b�
 3. Nhấn `Alt + 0-9` để nạp lại marker từ ô đó (thay thế các marker hiện có).
 4. Popup tô sáng những ô đang có dữ liệu.
 
+## Quản lý ô lưu
+
+- Options > Marker Slots: dấu x trên một ô xoá ô đó; Delete all slots xoá mọi ô sau khi bạn xác nhận.
+- Confirm overwrite: khi bật, lưu vào ô đã có marker phải nhấn lần hai trong vòng 3 giây; lần nhấn đầu chỉ hiện toast.
+- Slots shown (1-10) đặt số ô hiện trong popup và Options. Ô bị ẩn vẫn giữ phím tắt và dữ liệu.
+
+## Khi nào marker mất
+
+- Marker chưa lưu sẽ mất khi bạn tải lại trang hoặc rời trang. Hãy lưu vào ô trước.
+- Cuộn trang hay trang thay đổi không làm marker dịch đi hay mất; chỉ Clear, hoàn tác hoặc tải lại mới xoá nó.
+- Một ô nạp được trên mọi trang. Nếu ô được lưu ở trang khác, một toast cho biết trang đó.
+
 ## Mẹo
 
 - Phím số trên bàn phím số (numpad) cũng dùng được cho phím tắt ô lưu.
-- Bố cục được lưu ngay trên máy bạn (chrome.storage.local) và không bao giờ gửi đi đâu.
+- Ô lưu nằm trong bộ nhớ riêng của Chrome. Nếu bật đồng bộ Chrome, chính Chrome chép chúng sang các trình duyệt bạn đã đăng nhập; Smart Mark tự nó không gửi đi đâu.
 
 ## Phím tắt dùng trong bài
 

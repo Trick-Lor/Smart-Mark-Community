@@ -27,6 +27,7 @@ _Video sẽ có sớm._
 - `Alt + O` - đổi hình dạng: Chữ nhật, Oval hoặc Thoi.
 - `Alt + W` - đổi cách ôm: Inscribe, Median hoặc Circumscribe.
 - `Alt + =` / `Alt + -` - nới hoặc thu hộp 5 px.
+- `Alt + ]` / `Alt + [` - bo góc tròn hơn hoặc vuông hơn 1 px (Chữ nhật và Thoi).
 - Mở trang Options để đặt màu cho chế độ Element.
 
 ## Hoàn tác và dọn dẹp
@@ -34,6 +35,7 @@ _Video sẽ có sớm._
 - `Ctrl + Z` hoàn tác marker vừa đặt, `Ctrl + Y` làm lại.
 - `Ctrl + Shift + Z`, rồi bấm vào một marker để xoá riêng nó.
 - `Ctrl + Shift + Alt + Z` xoá mọi marker phần tử cùng lúc.
+- Marker tạo bằng Ghép phần tử cũng tính là marker phần tử, nên hai phím này xoá cả chúng.
 
 ## Lưu lại
 
@@ -42,8 +44,9 @@ _Video sẽ có sớm._
 
 ## Mẹo
 
-- Viền xanh dương luôn cho thấy hộp thật của phần tử, nên bạn biết chính xác cái gì được đánh dấu dù hình đã lệch lề hay đổi dạng.
-- Mọi thứ điều khiển bằng bàn phím, hai tay bạn không cần rời phím.
+- Viền xanh dương cho thấy hộp thật của phần tử, nên bạn biết chính xác cái gì được đánh dấu dù marker đã nới lề hay đổi dạng. Viền tự ẩn khi bản xem trước xanh lá đã trùng đúng hộp đó (Chữ nhật, lề bằng 0).
+- Banner cookie hay thanh header dính đang che? Giữ `Alt` rồi bấm vào nó để ẩn đi (xem Ẩn lớp).
+- Marker nằm yên chỗ bạn đặt: cuộn trang hay trang thay đổi đều không làm nó dịch đi. Tải lại trang thì marker mất, trừ khi bạn đã lưu vào ô.
 
 ## Phím tắt dùng trong bài
 

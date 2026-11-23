@@ -1,11 +1,11 @@
 ---
 title: "Phím tắt tuỳ chỉnh"
-description: "Mọi phím tắt đều đổi được."
+description: "Đặt tổ hợp phím hợp tay bạn ngay trong trang Options - không cần tải lại."
 ---
 
 # Phím tắt tuỳ chỉnh
 
-Mọi phím tắt đều đổi được. Đặt tổ hợp phím hợp tay bạn ngay trong trang Options - không cần tải lại.
+Đặt tổ hợp phím hợp tay bạn ngay trong trang Options - không cần tải lại. Gần như mọi phím tắt đều đổi được, và phím nào cũng tắt riêng được.
 
 ![Phím tắt tuỳ chỉnh](/media/custom-shortcuts.gif)
 
@@ -22,7 +22,9 @@ Mọi phím tắt đều đổi được. Đặt tổ hợp phím hợp tay bạ
 
 ## Mẹo
 
-- Các tổ hợp được giữ riêng (như Esc) không đổi được.
+- `Esc` không đổi được. Phím mở popup `Ctrl + ,` thuộc về Chrome: đổi nó tại chrome://extensions/shortcuts.
+- Vài hành động không có phím mặc định (ví dụ Toggle combo display); bấm Edit để gán phím.
+- Bỏ chọn ô ở đầu một dòng để tắt riêng phím tắt đó; tổ hợp phím vẫn được giữ và hiện bị gạch ngang.
 - Danh sách phím tắt trong popup và Options luôn hiện tổ hợp bạn đang dùng.
 
 ## Phím tắt dùng trong bài

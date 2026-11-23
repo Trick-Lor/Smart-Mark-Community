@@ -24,8 +24,8 @@ _Video coming soon._
 
 ## Adjust (optional)
 
+- `Alt + O` shape, `Alt + W` fit, `Alt + =` / `Alt + -` grow or shrink the box by 5 px, `Alt + ]` / `Alt + [` round the corners (see Shape and Fit).
 - Open the Options page to set the Merge color.
-- `Alt + =` / `Alt + -` grow or shrink the box by 5 px.
 
 ## Undo and clean up
 
@@ -42,6 +42,7 @@ _Video coming soon._
 
 - Use this when one element box is too small - pick a start element and an end element to wrap the whole region.
 - The orange outline on the second pick shows the exact span before you commit.
+- A merge marker counts as an element marker: `Ctrl + Shift + Z` and `Ctrl + Shift + Alt + Z` remove it too.
 
 ## Shortcuts used here
 

@@ -27,6 +27,7 @@ _Video sẽ có sớm._
 - `Alt + O` - đổi hình dạng: Chữ nhật, Oval hoặc Thoi.
 - `Alt + W` - đổi cách ôm: Inscribe, Median hoặc Circumscribe.
 - `Alt + =` / `Alt + -` - nới hoặc thu hộp 5 px.
+- `Alt + ]` / `Alt + [` - bo góc tròn hơn hoặc vuông hơn 1 px (Chữ nhật và Thoi).
 - Mở trang Options để đặt màu cho Free draw.
 
 ## Hoàn tác và dọn dẹp
@@ -42,7 +43,7 @@ _Video sẽ có sớm._
 
 ## Mẹo
 
-- Trong lúc kéo, viền xanh dương cho thấy hộp thô tính từ điểm bắt đầu, giúp bạn đặt thật chính xác.
+- Trong lúc kéo, viền xanh dương cho thấy hộp thô tính từ điểm bắt đầu, giúp bạn đặt thật chính xác. Viền tự ẩn khi bản xem trước đã trùng đúng hộp đó (Chữ nhật, lề bằng 0).
 - Chế độ hai lần bấm tiện khi khó kéo một mạch (ví dụ qua vùng nội dung đang cuộn).
 
 ## Phím tắt dùng trong bài

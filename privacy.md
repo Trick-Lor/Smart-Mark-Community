@@ -2,12 +2,12 @@
 file: ./docs/privacy.md
 description: Privacy policy for the Smart Mark Chrome extension. Hosted publicly to serve as the Chrome Web Store privacy policy URL.
 scope: project
-updated-at: 2026-06-15
+updated-at: 2026-10-02
 ---
 
 # Smart Mark - Privacy Policy
 
-Last updated: 2026-06-15
+Last updated: 2026-09-20
 
 Smart Mark is a Chrome extension that overlays canvas markers on web pages, controlled by keyboard shortcuts. This policy explains what the extension stores and what it deliberately does not do.
 
@@ -17,8 +17,9 @@ Smart Mark saves only your own settings and marker layouts, using Chrome's built
 
 - Display preferences: default shape, marker padding, border radius, and per-mode colors.
 - Keyboard shortcut overrides you set.
-- Saved marker slots (the marker layouts you choose to save).
+- Saved marker slots (the marker layouts you choose to save). Since 2026-10-02 each saved marker also keeps its shape and style and the address (URL) of the page it was saved on, so the extension can tell you when you load a slot on a different page. Page titles are not stored.
 - Options and popup panel state (which sections are expanded).
+- Diagnostics log (only while you switch Diagnostics on in Options): the extension's own recent events, kept on this device so you can copy them into a bug report. Switching Diagnostics off deletes it.
 
 That is the complete list. Smart Mark does not store the content of the pages you visit, your browsing history, your keystrokes outside its own shortcuts, or any personal or identifying information.
 

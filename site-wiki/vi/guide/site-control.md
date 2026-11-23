@@ -36,7 +36,7 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 
 ## Tắt riêng một phím tắt
 
-- Trong Options > Keyboard Shortcuts, bỏ chọn ô của một phím tắt để tắt riêng phím đó. Tổ hợp phím của nó vẫn được giữ để dùng sau.
+- Trong Options > Keyboard Shortcuts, bỏ chọn ô của một phím tắt để tắt riêng phím đó. Tổ hợp phím của nó vẫn được giữ để dùng sau và hiện bị gạch ngang.
 
 ## Phím tắt dùng trong bài
 

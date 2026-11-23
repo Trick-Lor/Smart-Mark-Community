@@ -28,6 +28,7 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 ## Tips
 
 - Toasts and the numbered image-marking boxes are left out of the picture.
+- Layers you hid stay hidden in the picture (see Hide Layers).
 - The image is made inside your browser. Nothing is uploaded.
 
 ## Shortcuts used here

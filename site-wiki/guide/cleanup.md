@@ -17,7 +17,12 @@ Remove one marker by clicking it, or clear the whole page at once - works across
 
 1. Press `Ctrl + Shift + D`, then click any marker to remove just that one.
 2. Press `Ctrl + Shift + Alt + D` to clear all markers on the page at once.
-3. Press `Esc` to leave the remove mode.
+3. Press `Ctrl + Shift + D` again, or `Esc`, to leave the remove mode. The markers you did not click stay.
+
+## Tips
+
+- Each marking mode also has its own remove shortcuts: see Element Marking and Free Draw.
+- Clearing markers does not bring back layers you hid; use `Ctrl + Shift + Alt + A` for that (see Hide Layers).
 
 ## Shortcuts used here
 

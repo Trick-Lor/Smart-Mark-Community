@@ -17,7 +17,12 @@ Lùi và tiến qua từng thao tác đánh dấu, nên một lần lỡ tay ch�
 
 1. Nhấn `Ctrl + Z` để hoàn tác thao tác marker vừa rồi.
 2. Nhấn `Ctrl + Y` để làm lại.
-3. Hoàn tác và làm lại áp dụng cho cả việc tạo và xoá marker.
+3. Hoàn tác và làm lại áp dụng cho việc tạo và xoá marker, nạp một ô lưu và ẩn một lớp.
+
+## Mẹo
+
+- Khi không còn gì để hoàn tác, `Ctrl + Z` về lại trang như bình thường (ví dụ để hoàn tác chữ bạn gõ).
+- Số bước hoàn tác (10-500) nằm trong Options > Marker Configuration.
 
 ## Phím tắt dùng trong bài
 

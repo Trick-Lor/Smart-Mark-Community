@@ -15,10 +15,13 @@ Give each marking mode its own color, so element marks, free-draw marks, and mer
 
 ## Step by step
 
-1. Open the Options page and expand the Colors section.
-2. Pick a color for each mode: Marker, Element, Free draw, Merge, Clear/Delete, Overlay.
-3. The change applies live - the matching preview, outline, and marker all switch to the chosen hue.
-4. Use Reset colors to go back to the built-in defaults.
+1. Open the Options page and expand Colors & Style.
+2. Pick a color for each mode: Marker, Element mode, Free draw, Merge, Clear / Delete, Image pick, and Hide preview.
+3. Locating outline has its own colors: Outline (the box on the real element while you pick) and Merge span outline, plus Outline width.
+4. Overlay sets the color of the dim layer over the page during Free Draw and Merge.
+5. The change applies live - the matching preview, outline, and marker all switch to the chosen hue.
+6. Color format decides how every color box shows and takes values: HEX text, or RGB / HSL numbers.
+7. Reset colors & style returns colors and style to the selected profile's values.
 
 ## Shortcuts used here
 

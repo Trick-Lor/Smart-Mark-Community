@@ -27,6 +27,7 @@ _Video coming soon._
 - `Alt + O` - change the shape: Rectangle, Oval, or Diamond.
 - `Alt + W` - change the fit: Inscribe, Median, or Circumscribe.
 - `Alt + =` / `Alt + -` - grow or shrink the box by 5 px.
+- `Alt + ]` / `Alt + [` - round the corners 1 px more or less (Rectangle and Diamond).
 - Open the Options page to set the Element mode color.
 
 ## Undo and clean up
@@ -34,6 +35,7 @@ _Video coming soon._
 - `Ctrl + Z` undo the last marker, `Ctrl + Y` redo.
 - `Ctrl + Shift + Z`, then click a marker to remove just that one.
 - `Ctrl + Shift + Alt + Z` remove all element markers at once.
+- Markers made with Element Merge count as element markers, so these two remove them too.
 
 ## Save your work
 
@@ -42,8 +44,9 @@ _Video coming soon._
 
 ## Tips
 
-- The blue outline always shows the real element box, so you know exactly what gets marked even when the shape is offset or shaped.
-- Everything is keyboard-driven, so you keep both hands on the keyboard.
+- The blue outline shows the real element box, so you know exactly what gets marked even when the marker is offset or shaped. It hides itself when the green preview already covers the same box (Rectangle with no offset).
+- A cookie banner or a sticky header in the way? Hold `Alt` and click it to hide it (see Hide Layers).
+- A marker stays where you put it: scrolling or a page change does not move it. Reloading the page removes it unless you saved it to a slot.
 
 ## Shortcuts used here
 

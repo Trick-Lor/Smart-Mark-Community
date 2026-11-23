@@ -24,8 +24,8 @@ _Video sẽ có sớm._
 
 ## Điều chỉnh (tuỳ chọn)
 
+- `Alt + O` đổi hình dạng, `Alt + W` đổi cách ôm, `Alt + =` / `Alt + -` nới hoặc thu hộp 5 px, `Alt + ]` / `Alt + [` bo góc (xem Hình dạng và cách ôm).
 - Mở trang Options để đặt màu cho Merge.
-- `Alt + =` / `Alt + -` nới hoặc thu hộp 5 px.
 
 ## Hoàn tác và dọn dẹp
 
@@ -42,6 +42,7 @@ _Video sẽ có sớm._
 
 - Dùng khi hộp của một phần tử quá nhỏ - chọn phần tử đầu và phần tử cuối để bao trọn cả vùng.
 - Viền cam ở lần bấm thứ hai cho thấy đúng khoảng trước khi bạn chốt.
+- Marker ghép tính là marker phần tử: `Ctrl + Shift + Z` và `Ctrl + Shift + Alt + Z` cũng xoá được nó.
 
 ## Phím tắt dùng trong bài
 

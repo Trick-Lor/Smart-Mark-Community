@@ -21,9 +21,10 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 
 1. Mở trang Options và mở rộng mục Colors & Style. Khung xem trước vẽ lại sau mỗi thay đổi.
 2. Marker: độ dày nét (1-10 px), kiểu nét (solid, dashed, dotted) và độ đậm nền (0% giữ kiểu chỉ có viền như cũ).
-3. Preview: độ dày và nền của đường viền bạn thấy khi rê chuột hoặc khi vẽ, cùng độ tối của lớp phủ (0-60%).
-4. Thời gian hiện toast (0,5-5 giây) nằm trong mục Notifications; số bước hoàn tác (10-500) nằm trong mục Marker Configuration.
-5. Reset colors & style đưa các giá trị này về profile đang chọn.
+3. Preview: độ dày và nền của đường viền bạn thấy khi rê chuột hoặc khi vẽ, cùng độ tối (0-60%) và độ nhoè của trang phía sau lớp phủ trong lúc Free Draw và Merge.
+4. Per-mode previews: cho Element, Free draw, Merge và Clear độ dày và kiểu nét xem trước riêng thay vì dùng chung.
+5. Thời gian hiện, thời gian mờ dần và vị trí của toast nằm trong mục Notifications; số bước hoàn tác (10-500) nằm trong mục Marker Configuration.
+6. Reset colors & style đưa các giá trị này về profile đang chọn.
 
 ## Kiểu bút dạ quang
 

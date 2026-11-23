@@ -27,6 +27,7 @@ _Video coming soon._
 - `Alt + O` - change the shape: Rectangle, Oval, or Diamond.
 - `Alt + W` - change the fit: Inscribe, Median, or Circumscribe.
 - `Alt + =` / `Alt + -` - grow or shrink the box by 5 px.
+- `Alt + ]` / `Alt + [` - round the corners 1 px more or less (Rectangle and Diamond).
 - Open the Options page to set the Free draw color.
 
 ## Undo and clean up
@@ -42,7 +43,7 @@ _Video coming soon._
 
 ## Tips
 
-- While dragging, a blue outline shows the raw box from your start point, so you can place it precisely.
+- While dragging, a blue outline shows the raw box from your start point, so you can place it precisely. It hides itself when the preview already covers the same box (Rectangle with no offset).
 - Two-click mode is handy when a clean drag is hard (for example across scrolling content).
 
 ## Shortcuts used here

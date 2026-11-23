@@ -41,6 +41,14 @@
           "link": "/guide/cleanup"
         },
         {
+          "text": "Hide Layers",
+          "link": "/guide/hide-layer"
+        },
+        {
+          "text": "Mark Selected Text",
+          "link": "/guide/mark-text"
+        },
+        {
           "text": "Marker Colors",
           "link": "/guide/colors"
         },
@@ -79,8 +87,16 @@
         {
           "text": "Typing and Site Access",
           "link": "/guide/site-control"
+        },
+        {
+          "text": "Diagnostics and Bug Reports",
+          "link": "/guide/diagnostics"
         }
       ]
+    },
+    {
+      "text": "About",
+      "link": "/about"
     }
   ],
   "vi": [
@@ -125,6 +141,14 @@
           "link": "/vi/guide/cleanup"
         },
         {
+          "text": "Ẩn lớp",
+          "link": "/vi/guide/hide-layer"
+        },
+        {
+          "text": "Đánh dấu chữ đã bôi đen",
+          "link": "/vi/guide/mark-text"
+        },
+        {
           "text": "Màu marker",
           "link": "/vi/guide/colors"
         },
@@ -163,8 +187,16 @@
         {
           "text": "Khi gõ chữ và tắt theo site",
           "link": "/vi/guide/site-control"
+        },
+        {
+          "text": "Chẩn đoán và báo lỗi",
+          "link": "/vi/guide/diagnostics"
         }
       ]
+    },
+    {
+      "text": "Giới thiệu",
+      "link": "/vi/about"
     }
   ]
 }

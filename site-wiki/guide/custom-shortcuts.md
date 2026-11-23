@@ -1,11 +1,11 @@
 ---
 title: "Custom Shortcuts"
-description: "Every shortcut is rebindable."
+description: "Set the key combos that fit your hands from the Options page - no reload needed."
 ---
 
 # Custom Shortcuts
 
-Every shortcut is rebindable. Set the key combos that fit your hands from the Options page - no reload needed.
+Set the key combos that fit your hands from the Options page - no reload needed. Almost every shortcut can be changed, and any one can be switched off.
 
 ![Custom Shortcuts](/media/custom-shortcuts.gif)
 
@@ -22,7 +22,9 @@ Every shortcut is rebindable. Set the key combos that fit your hands from the Op
 
 ## Tips
 
-- Reserved combos (like Esc) cannot be rebound.
+- `Esc` cannot be rebound. The popup shortcut `Ctrl + ,` belongs to Chrome: change it at chrome://extensions/shortcuts.
+- Some actions ship without a key (for example Toggle combo display); Edit gives them one.
+- Untick a row's checkbox to switch that shortcut off; its combo is kept and shown struck through.
 - The popup and options shortcut lists always show your live combos.
 
 ## Shortcuts used here

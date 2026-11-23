@@ -17,7 +17,12 @@ Xoá một marker bằng cách bấm vào nó, hoặc dọn cả trang một l�
 
 1. Nhấn `Ctrl + Shift + D`, rồi bấm vào bất kỳ marker nào để xoá riêng nó.
 2. Nhấn `Ctrl + Shift + Alt + D` để xoá mọi marker trên trang cùng lúc.
-3. Nhấn `Esc` để rời chế độ xoá.
+3. Nhấn `Ctrl + Shift + D` lần nữa, hoặc `Esc`, để rời chế độ xoá. Các marker bạn không bấm vẫn còn.
+
+## Mẹo
+
+- Mỗi chế độ đánh dấu còn có phím xoá riêng: xem Đánh dấu phần tử và Vẽ tự do.
+- Xoá marker không làm hiện lại các lớp bạn đã ẩn; dùng `Ctrl + Shift + Alt + A` cho việc đó (xem Ẩn lớp).
 
 ## Phím tắt dùng trong bài
 

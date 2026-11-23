@@ -36,7 +36,7 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## Switch off a single shortcut
 
-- In Options > Keyboard Shortcuts, untick the checkbox of a shortcut to switch only that one off. Its key combo is kept for later.
+- In Options > Keyboard Shortcuts, untick the checkbox of a shortcut to switch only that one off. Its key combo is kept for later and shown struck through.
 
 ## Shortcuts used here
 

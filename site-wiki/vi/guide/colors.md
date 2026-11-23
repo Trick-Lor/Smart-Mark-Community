@@ -15,10 +15,13 @@ Cho mỗi chế độ đánh dấu một màu riêng, để marker phần tử, 
 
 ## Từng bước
 
-1. Mở trang Options và mở rộng mục Colors.
-2. Chọn màu cho từng chế độ: Marker, Element, Free draw, Merge, Clear/Delete, Overlay.
-3. Thay đổi áp dụng ngay - bản xem trước, viền và marker tương ứng đều đổi sang màu đã chọn.
-4. Dùng Reset colors để quay về màu mặc định.
+1. Mở trang Options và mở rộng mục Colors & Style.
+2. Chọn màu cho từng chế độ: Marker, Element mode, Free draw, Merge, Clear / Delete, Image pick và Hide preview.
+3. Locating outline có màu riêng: Outline (hộp trên phần tử thật khi bạn chọn) và Merge span outline, kèm Outline width.
+4. Overlay đặt màu lớp phủ tối trên trang trong lúc Free Draw và Merge.
+5. Thay đổi áp dụng ngay - bản xem trước, viền và marker tương ứng đều đổi sang màu đã chọn.
+6. Color format quyết định mọi ô màu hiện và nhận giá trị thế nào: chữ HEX, hoặc số RGB / HSL.
+7. Reset colors & style đưa màu và kiểu về giá trị của profile đang chọn.
 
 ## Phím tắt dùng trong bài
 

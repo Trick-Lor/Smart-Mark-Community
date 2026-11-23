@@ -1,0 +1,301 @@
+/*
+ * Docs-site skin (todo 18.7): the six themes of the extension's popup and options page, mapped
+ * onto VitePress's CSS variables. ThemePicker.vue sets <html data-sm-theme> (plus the "dark"
+ * class for dark themes); the inline script in config.mjs applies the saved choice before first
+ * paint. html[data-sm-theme] outranks VitePress's :root and .dark blocks.
+ * Hand Drawn keeps a readable body face (Nunito) and draws only headings and navigation by hand.
+ */
+
+@font-face {
+  font-family: "Patrick Hand";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/patrick-hand-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Gochi Hand";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/gochi-hand-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/nunito-400-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tilt Neon";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/tilt-neon-400.woff2") format("woff2");
+}
+
+:root {
+  --sm-font-display: var(--vp-font-family-base);
+  --sm-radius: 10px;
+  --sm-card-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
+/* AI Vibe - the extension's default light theme */
+html[data-sm-theme="ai-vibe"] {
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-soft: #f1f5f9;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-text-1: #0f172a;
+  --vp-c-text-2: #475569;
+  --vp-c-text-3: #94a3b8;
+  --vp-c-divider: #e2e8f0;
+  --vp-c-border: #cbd5e1;
+  --vp-c-gutter: #e2e8f0;
+  --vp-c-brand-1: #15803d;
+  --vp-c-brand-2: #16a34a;
+  --vp-c-brand-3: #16a34a;
+  --vp-c-brand-soft: rgba(22, 163, 74, 0.14);
+}
+
+/* AI Vibe Dark */
+html[data-sm-theme="ai-vibe-dark"] {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-alt: #020617;
+  --vp-c-bg-soft: #1e293b;
+  --vp-c-bg-elv: #172033;
+  --vp-c-text-1: #f1f5f9;
+  --vp-c-text-2: #cbd5e1;
+  --vp-c-text-3: #64748b;
+  --vp-c-divider: #2c3a52;
+  --vp-c-border: #475569;
+  --vp-c-gutter: #020617;
+  --vp-c-brand-1: #4ade80;
+  --vp-c-brand-2: #22c55e;
+  --vp-c-brand-3: #16a34a;
+  --vp-c-brand-soft: rgba(34, 197, 94, 0.16);
+  --sm-card-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
+/* Hand Drawn - paper, ink and asymmetric corners */
+html[data-sm-theme^="hand-drawn"] {
+  --vp-font-family-base: "Nunito", "Segoe UI", Roboto, sans-serif;
+  --sm-font-display: "Patrick Hand", "Comic Sans MS", cursive;
+  --sm-radius: 8px 12px 9px 14px;
+}
+html[data-sm-theme="hand-drawn"] {
+  --vp-c-bg: #fffef9;
+  --vp-c-bg-alt: #fdfaf1;
+  --vp-c-bg-soft: #f6f1e3;
+  --vp-c-bg-elv: #fffef9;
+  --vp-c-text-1: #26221e;
+  --vp-c-text-2: #5e574f;
+  --vp-c-text-3: #8f867a;
+  --vp-c-divider: rgba(38, 34, 30, 0.22);
+  --vp-c-border: #26221e;
+  --vp-c-gutter: #f6f1e3;
+  --vp-c-brand-1: #256e33;
+  --vp-c-brand-2: #2f9e44;
+  --vp-c-brand-3: #2f9e44;
+  --vp-c-brand-soft: #c9ecd1;
+  --sm-card-shadow: 4px 5px 0 rgba(38, 34, 30, 0.12);
+  --sm-dot: rgba(38, 34, 30, 0.08);
+}
+html[data-sm-theme="hand-drawn-dark"] {
+  --vp-c-bg: #2b2620;
+  --vp-c-bg-alt: #211d18;
+  --vp-c-bg-soft: #262119;
+  --vp-c-bg-elv: #2b2620;
+  --vp-c-text-1: #ece4d4;
+  --vp-c-text-2: #b5aa99;
+  --vp-c-text-3: #8a8174;
+  --vp-c-divider: rgba(236, 228, 212, 0.22);
+  --vp-c-border: #ece4d4;
+  --vp-c-gutter: #211d18;
+  --vp-c-brand-1: #74d189;
+  --vp-c-brand-2: #52c26d;
+  --vp-c-brand-3: #2f9e44;
+  --vp-c-brand-soft: #2c4a33;
+  --sm-card-shadow: 4px 5px 0 rgba(0, 0, 0, 0.40);
+  --sm-dot: rgba(236, 228, 212, 0.06);
+}
+
+/* Neon - glow on deep navy */
+html[data-sm-theme="neon"] {
+  --vp-font-family-base: "Nunito", "Segoe UI", Roboto, sans-serif;
+  --sm-font-display: "Tilt Neon", "Nunito", sans-serif;
+  --vp-c-bg: #0b0a22;
+  --vp-c-bg-alt: #050514;
+  --vp-c-bg-soft: #181538;
+  --vp-c-bg-elv: #0f0d26;
+  --vp-c-text-1: #eaf6ff;
+  --vp-c-text-2: #9fa9d6;
+  --vp-c-text-3: #6d76a0;
+  --vp-c-divider: rgba(62, 227, 255, 0.28);
+  --vp-c-border: #3ee3ff;
+  --vp-c-gutter: #050514;
+  --vp-c-brand-1: #ff6fe6;
+  --vp-c-brand-2: #ff3ed8;
+  --vp-c-brand-3: #d42bb3;
+  --vp-c-brand-soft: rgba(255, 62, 216, 0.16);
+  --sm-card-shadow: 0 0 4px rgba(62, 227, 255, 0.6), 0 0 18px rgba(62, 227, 255, 0.25);
+}
+
+/* VS Code - Dark Modern */
+html[data-sm-theme="vscode"] {
+  --vp-font-family-base: "Segoe UI", "Segoe WPC", system-ui, -apple-system, sans-serif;
+  --vp-font-family-mono: "Cascadia Code", Consolas, "Courier New", monospace;
+  --sm-radius: 4px;
+  --vp-c-bg: #1e1e1e;
+  --vp-c-bg-alt: #181818;
+  --vp-c-bg-soft: #2d2d2d;
+  --vp-c-bg-elv: #252526;
+  --vp-c-text-1: #cccccc;
+  --vp-c-text-2: #9d9d9d;
+  --vp-c-text-3: #7a7a7a;
+  --vp-c-divider: #333333;
+  --vp-c-border: #454545;
+  --vp-c-gutter: #141414;
+  --vp-c-brand-1: #4daafc;
+  --vp-c-brand-2: #1177bb;
+  --vp-c-brand-3: #0e639c;
+  --vp-c-brand-soft: rgba(0, 127, 212, 0.20);
+  --sm-card-shadow: 0 2px 8px rgba(0, 0, 0, 0.36);
+}
+
+/* Display type: headings, site title and sidebar group titles follow the theme */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.VPNavBarTitle .title,
+.VPSidebarItem.level-0 > .item .text {
+  font-family: var(--sm-font-display);
+}
+html[data-sm-theme^="hand-drawn"] .vp-doc h1 {
+  font-family: "Gochi Hand", "Patrick Hand", cursive;
+  font-size: 44px;
+  line-height: 1.15;
+}
+html[data-sm-theme^="hand-drawn"] .vp-doc h2,
+html[data-sm-theme^="hand-drawn"] .vp-doc h3 {
+  font-size: 1.55em;
+  letter-spacing: 0.01em;
+}
+html[data-sm-theme^="hand-drawn"] .vp-doc h2 {
+  border-top: 2px dashed var(--vp-c-divider);
+}
+html[data-sm-theme^="hand-drawn"] body {
+  background-image: radial-gradient(var(--sm-dot) 1px, transparent 1.4px);
+  background-size: 26px 26px;
+}
+/* The bundled Patrick Hand / Tilt Neon files are Latin subsets: stacked Vietnamese marks (the
+   grave on "đầu") drop out, so Vietnamese headings keep the Nunito face. */
+html[lang="vi"][data-sm-theme^="hand-drawn"],
+html[lang="vi"][data-sm-theme="neon"] {
+  --sm-font-display: "Nunito", "Segoe UI", Roboto, sans-serif;
+}
+html[lang="vi"][data-sm-theme^="hand-drawn"] .vp-doc h2,
+html[lang="vi"][data-sm-theme^="hand-drawn"] .vp-doc h3 {
+  font-size: 1.3em;
+}
+html[data-sm-theme="neon"] .vp-doc h1,
+html[data-sm-theme="neon"] .vp-doc h2 {
+  text-shadow: 0 0 8px rgba(62, 227, 255, 0.55);
+}
+
+/* Media and tables carry the theme's corners and shadow */
+.vp-doc img.sm-demo {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 16px 0;
+  border: 1px solid var(--vp-c-border);
+  border-radius: var(--sm-radius);
+  box-shadow: var(--sm-card-shadow);
+}
+.vp-doc .sm-video {
+  position: relative;
+  max-width: 760px;
+  margin: 24px 0;
+  padding-bottom: min(56.25%, 427px);
+  height: 0;
+  overflow: hidden;
+  border-radius: var(--sm-radius);
+  box-shadow: var(--sm-card-shadow);
+}
+.vp-doc .sm-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Home: one long guide page on the default doc layout; only its lead line and buttons differ. */
+.sm-home .vp-doc .sm-lead {
+  margin-top: 4px;
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+.sm-home .vp-doc .sm-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 8px;
+}
+.vp-doc a.sm-button {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--vp-c-border);
+  border-radius: var(--sm-radius);
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+  transition: background-color 0.2s, border-color 0.2s;
+}
+.vp-doc a.sm-button:hover {
+  border-color: var(--vp-c-brand-1);
+}
+.vp-doc a.sm-button--brand {
+  color: #ffffff;
+  border-color: transparent;
+  background: var(--vp-c-brand-3);
+}
+.vp-doc a.sm-button--brand:hover {
+  background: var(--vp-c-brand-2);
+}
+
+/* Theme picker in the nav bar */
+.sm-theme-picker {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+.sm-theme-picker select {
+  height: 32px;
+  padding: 0 8px;
+  font-size: 13px;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .sm-theme-picker {
+    margin-left: 4px;
+  }
+  .sm-theme-picker select {
+    max-width: 112px;
+    font-size: 12px;
+  }
+}
+.sm-theme-picker select:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 1px;
+}

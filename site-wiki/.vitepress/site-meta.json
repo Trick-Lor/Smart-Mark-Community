@@ -2,14 +2,28 @@
   "name": "Smart Mark",
   "url": "https://smartmark.hoducanh.com",
   "githubUrl": "https://github.com/Trick-Lor/smart-mark-community",
+  "storeUrl": "https://chromewebstore.google.com/detail/smart-mark/hpoalckkedhkjeanpkgjimcnljbddogl",
   "firstGuide": "/guide/element-marking",
+  "aboutPath": "/about",
+  "labels": {
+    "en": {
+      "guide": "Guide",
+      "about": "About",
+      "themeLabel": "Theme"
+    },
+    "vi": {
+      "guide": "Hướng dẫn",
+      "about": "Giới thiệu",
+      "themeLabel": "Giao diện"
+    }
+  },
   "title": {
     "en": "Smart Mark - Mark and highlight any web page with keyboard shortcuts.",
     "vi": "Smart Mark - Đánh dấu và làm nổi bật mọi trang web bằng phím tắt."
   },
   "description": {
-    "en": "Smart Mark lets you mark and highlight any element or area on a web page using keyboard shortcuts - outline elements, draw areas, and save layouts. No toolbar, no menus, no mouse required. No data collected; everything stays on your device.",
-    "vi": "Smart Mark giúp bạn đánh dấu và làm nổi bật mọi phần tử hoặc vùng trên trang web bằng phím tắt: viền phần tử, vẽ vùng tự do và lưu bố cục. Không thanh công cụ, không menu, không cần chuột. Không thu thập dữ liệu; mọi thứ nằm trên máy bạn."
+    "en": "Smart Mark lets you mark and highlight any element or area on a web page using keyboard shortcuts - outline elements, draw areas, and save layouts. Point with the mouse, act with the keys: no toolbar, no menus. No data collected; everything stays on your device.",
+    "vi": "Smart Mark giúp bạn đánh dấu và làm nổi bật mọi phần tử hoặc vùng trên trang web bằng phím tắt: viền phần tử, vẽ vùng tự do và lưu bố cục. Trỏ bằng chuột, ra lệnh bằng phím: không thanh công cụ, không menu. Không thu thập dữ liệu; mọi thứ nằm trên máy bạn."
   },
   "ogImage": "https://img.youtube.com/vi/6NlwbRJomok/maxresdefault.jpg",
   "jsonLd": [
@@ -17,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Smart Mark",
-      "description": "Smart Mark lets you mark and highlight any element or area on a web page using keyboard shortcuts - outline elements, draw areas, and save layouts. No toolbar, no menus, no mouse required. No data collected; everything stays on your device.",
+      "description": "Smart Mark lets you mark and highlight any element or area on a web page using keyboard shortcuts - outline elements, draw areas, and save layouts. Point with the mouse, act with the keys: no toolbar, no menus. No data collected; everything stays on your device.",
       "applicationCategory": "BrowserApplication",
       "operatingSystem": "Chrome",
       "offers": {
@@ -26,44 +40,6 @@
         "priceCurrency": "USD"
       },
       "url": "https://smartmark.hoducanh.com"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is Smart Mark free?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Smart Mark is completely free, with no ads and no accounts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does it collect my data?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Your settings and marker layouts are saved in Chrome's own storage. If Chrome sync is on, Google Chrome copies them between your signed-in browsers; Smart Mark has no server, sends nothing to the developer or any third party, and the extension contains no analytics or tracking."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which browser does it work on?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Google Chrome (Manifest V3). It runs on any normal web page, but not on chrome:// internal pages or the Web Store."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I have to memorize shortcuts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Every action has a keyboard shortcut, and all of them are rebindable from the options page. A toast shows the active mode as you work."
-          }
-        }
-      ]
     }
   ]
 }

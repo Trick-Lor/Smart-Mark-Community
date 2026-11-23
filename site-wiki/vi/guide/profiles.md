@@ -23,11 +23,13 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 2. Đổi bất kỳ thiết lập nào. Thanh profile hiện modified (N), và See changes liệt kê những gì khác đi. Chưa có gì được ghi vào profile cho tới khi bạn lưu.
 3. Save ghi đè profile đang chọn, trước đó hiện danh sách trước / sau để bạn bỏ bớt thay đổi nào tuỳ ý. Save as lưu thành profile mới với tên mới.
 4. Chọn profile khác để chuyển. Nếu còn thay đổi chưa lưu, bạn được hỏi Save first, Discard hay Cancel, và thấy danh sách thay đổi trước khi áp dụng.
+5. Rename, Duplicate và Delete áp lên profile đang chọn. Xoá profile thì xoá luôn các preset trong nó.
 
 ## Preset
 
 - Một preset chỉ đổi vài thiết lập. Smart Mark có sẵn năm cái: Defaults, Highlighter (nền vàng 35% với nét mảnh), Bug report, High contrast và Subtle.
 - Rê chuột lên một dòng preset để xem thử trong khung xem trước; Apply hiện danh sách thay đổi trước khi áp.
+- Copy to... chép một preset sang profile khác.
 - Restore default presets khôi phục preset có sẵn mà bạn đã xoá.
 
 ## Xuất và nhập
