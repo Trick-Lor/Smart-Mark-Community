@@ -30,6 +30,8 @@ That is the complete list. Smart Mark does not store the content of the pages yo
 
 ## Pictures of the page
 
+Smart Mark handles website content only in the two features below, only when you start them, and only inside your browser. Nothing from the page is stored or sent.
+
 - Image mode (Alt+I) takes a picture of the visible page (or renders it with html2canvas, as chosen in Options) and finds the blocks in it with OpenCV.js, inside the extension. The picture is held in memory only while the mode runs; it is never saved or sent.
 - Export screenshot (Ctrl+Shift+Alt+S) builds a picture of the page with your markers and downloads it as a PNG file to your device. It is not sent anywhere.
 
@@ -63,7 +65,7 @@ These permissions are used solely to provide the marking features. They are not 
 
 ## Third-party libraries
 
-Smart Mark bundles open-source libraries that run entirely inside your browser and do not transmit your data anywhere: jQuery 3.7.0, html2canvas and OpenCV.js.
+Smart Mark bundles open-source libraries that run entirely inside your browser and do not transmit your data anywhere: html2canvas and OpenCV.js.
 
 ## Changes to this policy
 

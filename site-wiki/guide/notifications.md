@@ -21,7 +21,7 @@ A small floating pill confirms each mode change and shortcut press, so you alway
 
 ## Other notices
 
-- `Desktop notifications`: a system notification when Smart Mark starts loading on a page and when it is ready. On by default; switch it off in Options > `Notifications`.
+- `Desktop notifications`: a system notification when Smart Mark starts loading on a page and when it is ready (one per tab, not per frame). Off by default; switch it on in Options > `Notifications`.
 - `Hide Layer toast` and `Hidden count badge`: the count shown after you hide a layer, and the number on the toolbar icon (see Hide Layer Mode).
 
 ## Tips

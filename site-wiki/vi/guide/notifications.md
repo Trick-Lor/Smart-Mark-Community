@@ -21,7 +21,7 @@ Một thẻ nhỏ nổi trên trang xác nhận mỗi lần đổi chế độ v
 
 ## Các thông báo khác
 
-- `Thông báo máy tính` (Desktop notifications): thông báo hệ thống khi Smart Mark bắt đầu nạp trên một trang và khi đã sẵn sàng. Mặc định bật; tắt trong Options > `Thông báo` (Notifications).
+- `Thông báo máy tính` (Desktop notifications): thông báo hệ thống khi Smart Mark bắt đầu nạp trên một trang và khi đã sẵn sàng (mỗi tab một lần, không tính iframe). Mặc định tắt; bật trong Options > `Thông báo` (Notifications).
 - `Toast khi ẩn` (Hide Layer toast) và `Số lớp ẩn trên icon` (Hidden count badge): số lớp đã ẩn hiện sau mỗi lần ẩn, và con số trên biểu tượng thanh công cụ (xem Chế độ Hide Layer).
 
 ## Mẹo

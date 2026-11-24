@@ -2,7 +2,7 @@
  * @file ./site/i18n/vi.mjs
  * @description Vietnamese copy for the docs site, keyed by feature id. Read by .agents/scripts/gen-feature-guides.mjs and gen-landing.mjs; a missing field falls back to English and is printed as a gap, a toneless string aborts the run (lib/toneless-check.mjs). Full diacritics only. Product words stay in English like the extension's own vi locale: Smart Mark, marker, Element / Free Draw / Merge, Image, Options, Oval, Inscribe / Median / Circumscribe, toast; Rectangle is "Chu nhat" and Diamond is "Thoi" there too.
  * @scope project
- * @updated-at 2026-11-23
+ * @updated-at 2026-11-24
  */
 
 "use strict";
@@ -421,7 +421,7 @@ export const FEATURES_VI = {
             {
                 heading: "Các thông báo khác",
                 lines: [
-                    "- {{ui:UI_NOTIFY_DESKTOP_LABEL}}: thông báo hệ thống khi Smart Mark bắt đầu nạp trên một trang và khi đã sẵn sàng. Mặc định bật; tắt trong Options > {{ui:UI_SECTION_NOTIFICATIONS}}.",
+                    "- {{ui:UI_NOTIFY_DESKTOP_LABEL}}: thông báo hệ thống khi Smart Mark bắt đầu nạp trên một trang và khi đã sẵn sàng (mỗi tab một lần, không tính iframe). Mặc định tắt; bật trong Options > {{ui:UI_SECTION_NOTIFICATIONS}}.",
                     "- {{ui:UI_HIDE_TOAST_LABEL}} và {{ui:UI_HIDE_BADGE_LABEL}}: số lớp đã ẩn hiện sau mỗi lần ẩn, và con số trên biểu tượng thanh công cụ (xem Chế độ Hide Layer)."
                 ]
             },
