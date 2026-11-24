@@ -27,14 +27,14 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## With a shortcut
 
-- Mark selected text has no key at first. Give it one in Options > Keyboard Shortcuts, for example `Alt + S`.
-- The shortcut marks in the default style: Options > Marker Configuration > Selected text > Default text style (Box or Highlight lines).
+- Mark selected text has no key at first. Give it one in Options > `Keyboard Shortcuts`, for example `Alt + S`.
+- The shortcut marks in the default style: Options > `Marker Configuration` > `Selected text` > `Default text style` (`Box` or `Highlight lines`).
 - Once bound, the right-click item of the default style shows the key, for example Mark text: box (Alt+S).
 
 ## Tips
 
 - A highlight is one marker however many lines it covers: one `Ctrl + Z` removes it, and a slot saves it whole.
-- The box style uses your current shape, fit, offset, and Marker color. The highlight uses the Text highlight color (Options > Colors & Style), yellow by default.
+- The box style uses your current shape, fit, offset, and `Marker` color. The highlight uses `Text highlight` (Options > `Colors & Style`), yellow by default.
 - Text inside an input or a text area cannot be marked; select text on the page itself.
 
 ## Shortcuts used here

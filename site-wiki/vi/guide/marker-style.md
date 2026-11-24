@@ -19,12 +19,12 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 
 ## Từng bước
 
-1. Mở trang Options và mở rộng mục Colors & Style. Khung xem trước vẽ lại sau mỗi thay đổi.
-2. Marker: độ dày nét (1-10 px), kiểu nét (solid, dashed, dotted) và độ đậm nền (0% giữ kiểu chỉ có viền như cũ).
-3. Preview: độ dày và nền của đường viền bạn thấy khi rê chuột hoặc khi vẽ, cùng độ tối (0-60%) và độ nhoè của trang phía sau lớp phủ trong lúc Free Draw và Merge.
-4. Per-mode previews: cho Element, Free draw, Merge và Clear độ dày và kiểu nét xem trước riêng thay vì dùng chung.
-5. Thời gian hiện, thời gian mờ dần và vị trí của toast nằm trong mục Notifications; số bước hoàn tác (10-500) nằm trong mục Marker Configuration.
-6. Reset colors & style đưa các giá trị này về profile đang chọn.
+1. Mở trang Options và mở rộng mục `Màu & Kiểu dáng` (Colors & Style). Khung xem trước vẽ lại sau mỗi thay đổi.
+2. `Marker (đã đặt)` (Marker (placed)): `Độ dày nét` (Line width) (1-10 px), `Kiểu nét` (Line style) (`Liền` (Solid), `Gạch` (Dashed), `Chấm` (Dotted)) và `Độ đục tô` (Fill opacity) (0% giữ kiểu chỉ có viền như cũ).
+3. `Preview (rê chuột / vẽ / merge / xóa)` (Previews (hover / draw / merge / clear)): độ dày và nền của đường viền bạn thấy khi rê chuột hoặc khi vẽ, cùng độ tối (0-60%) và độ nhoè của trang phía sau lớp phủ trong lúc Free Draw và Merge.
+4. `Preview từng chế độ (độ dày 0 = chung)` (Per-mode previews (width 0 = shared)): cho Element, Free Draw, Merge và Remove độ dày và kiểu nét xem trước riêng thay vì dùng chung.
+5. `Thời gian toast` (Toast duration), `Mờ toast` (Toast fade) và `Vị trí toast` (Toast position) nằm trong mục `Thông báo` (Notifications); `Độ sâu hoàn tác` (Undo depth) (10-500) nằm trong mục `Cấu hình marker` (Marker Configuration).
+6. `Đặt lại màu & kiểu dáng` (Reset colors & style) đưa các giá trị này về profile đang chọn.
 
 ## Kiểu bút dạ quang
 

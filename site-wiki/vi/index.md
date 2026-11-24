@@ -12,12 +12,12 @@ pageClass: sm-home
 
 Smart Mark giúp bạn đánh dấu và làm nổi bật mọi phần tử hoặc vùng trên trang web bằng phím tắt: viền phần tử, vẽ vùng tự do và lưu bố cục. Trỏ bằng chuột, ra lệnh bằng phím: không thanh công cụ, không menu. Không thu thập dữ liệu; mọi thứ nằm trên máy bạn.
 
-<div class="sm-actions"><a class="sm-button sm-button--brand" href="https://chromewebstore.google.com/detail/smart-mark/hpoalckkedhkjeanpkgjimcnljbddogl">Thêm vào Chrome</a><a class="sm-button" href="https://github.com/Trick-Lor/smart-mark-community">Cộng đồng trên GitHub</a><a class="sm-button" href="#quick-start">Bắt đầu nhanh</a></div>
+<div class="sm-actions"><a class="sm-button sm-button--brand" href="https://chromewebstore.google.com/detail/smart-mark/hpoalckkedhkjeanpkgjimcnljbddogl">Thêm vào Chrome</a><a class="sm-button" href="https://github.com/Trick-Lor/smart-mark-community/issues">Góp ý</a><a class="sm-button" href="#quick-start">Bắt đầu nhanh</a></div>
 
 ## Bắt đầu nhanh {#quick-start}
 
 1. Cài Smart Mark và ghim biểu tượng của nó lên thanh công cụ.
-2. Mở một trang web bình thường rồi bấm `Alt + Z` để bật chế độ phần tử.
+2. Mở một trang web bình thường rồi bấm `Alt + Z` để bật chế độ Element.
 3. Rê chuột lên một phần tử và bấm `Shift + Z`: marker đầu tiên đã xong. Bấm `Esc` để thoát.
 
 <div class="sm-video">
@@ -28,7 +28,7 @@ Smart Mark giúp bạn đánh dấu và làm nổi bật mọi phần tử hoặ
 
 Mỗi mục bên dưới tóm tắt một tính năng; bấm liên kết ở cuối mục để xem hướng dẫn đầy đủ.
 
-### Đánh dấu phần tử {#element-marking}
+### Chế độ Element {#element-marking}
 
 Rê chuột lên bất kỳ phần tử nào trên trang web - nút, ảnh, thẻ hay đoạn văn - rồi thả một marker hình hộp ôm sát phần tử đó. Rất hợp để chỉ điểm trong ảnh chụp màn hình, báo lỗi và bài hướng dẫn.
 
@@ -36,36 +36,36 @@ Rê chuột lên bất kỳ phần tử nào trên trang web - nút, ảnh, th�
 | --- | --- |
 | `Alt + Z` | bật / tắt chế độ Element |
 | `Shift + Z` | đặt hoặc bỏ marker trên phần tử đang rê |
-| `Ctrl + Shift + Z` | bấm để xoá marker phần tử |
-| `Ctrl + Shift + Alt + Z` | xoá mọi marker phần tử |
+| `Ctrl + Shift + Z` | bấm để xoá marker Element |
+| `Ctrl + Shift + Alt + Z` | xoá mọi marker Element |
 
-[Hướng dẫn đầy đủ: Đánh dấu phần tử](/vi/guide/element-marking)
+[Hướng dẫn đầy đủ: Chế độ Element](/vi/guide/element-marking)
 
-### Vẽ tự do {#free-draw}
+### Chế độ Free Draw {#free-draw}
 
 Vẽ một marker chữ nhật ở bất kỳ đâu trên trang, không phụ thuộc phần tử nào. Kéo thả tự do, hoặc bấm hai góc đối diện để chính xác hơn.
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Alt + X` | bật chế độ Free Draw (kéo để vẽ) |
+| `Alt + X` | bật / tắt chế độ Free Draw (kéo để vẽ) |
 | `Shift + X` | chuyển sang chế độ bấm hai góc |
-| `Ctrl + Shift + X` | bấm để xoá marker vẽ tự do |
-| `Ctrl + Shift + Alt + X` | xoá mọi marker vẽ tự do |
+| `Ctrl + Shift + X` | bấm để xoá marker Free Draw |
+| `Ctrl + Shift + Alt + X` | xoá mọi marker Free Draw |
 
-[Hướng dẫn đầy đủ: Vẽ tự do](/vi/guide/free-draw)
+[Hướng dẫn đầy đủ: Chế độ Free Draw](/vi/guide/free-draw)
 
-### Ghép phần tử {#element-merge}
+### Chế độ Merge {#element-merge}
 
 Đánh dấu chính xác một vùng chữ nhật xác định bởi hai phần tử. Hộp trải từ góc trên trái của phần tử thứ nhất tới góc dưới phải của phần tử thứ hai - lý tưởng để đánh dấu cả một khu vực gồm nhiều phần tử.
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Alt + Q` | bật chế độ Merge, rồi bấm hai phần tử |
+| `Alt + Q` | bật / tắt chế độ Merge; nhấn lại sau lần bấm đầu để huỷ |
 | `Ctrl + Shift + D` | bấm để xoá bất kỳ marker nào |
 | `Ctrl + Shift + Alt + D` | xoá mọi marker trên trang |
 | `Esc` | thoát chế độ |
 
-[Hướng dẫn đầy đủ: Ghép phần tử](/vi/guide/element-merge)
+[Hướng dẫn đầy đủ: Chế độ Merge](/vi/guide/element-merge)
 
 ### Hình dạng và cách ôm {#shape-and-fit}
 
@@ -73,14 +73,14 @@ Vẽ một marker chữ nhật ở bất kỳ đâu trên trang, không phụ th
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Alt + O` | xoay vòng hình dạng: Chữ nhật, Oval, Thoi |
-| `Alt + W` | xoay vòng cách ôm: Inscribe, Median, Circumscribe |
+| `Alt + O` | xoay vòng hình dạng: `Chữ nhật` (Rectangle), `Oval`, `Thoi` (Diamond) |
+| `Alt + W` | xoay vòng cách ôm: `Inscribe`, `Median`, `Circumscribe` |
 | `Alt + =` | lề +5 px (thô) |
 | `Alt + -` | lề -5 px (thô) |
 
 [Hướng dẫn đầy đủ: Hình dạng và cách ôm](/vi/guide/shape-and-fit)
 
-### Đánh dấu theo ảnh {#image-marking}
+### Chế độ Image {#image-marking}
 
 Khi cả trang là một ảnh lớn, một video, một SVG hay một ảnh chụp màn hình thì không có phần tử nào để rê chuột. Đánh dấu theo ảnh quét trang, tìm các khối nhìn thấy được và cho bạn chọn bằng cú bấm hoặc bằng một phím.
 
@@ -89,7 +89,7 @@ Khi cả trang là một ảnh lớn, một video, một SVG hay một ảnh ch�
 | `Alt + I` | quét trang và hiện các khối có số (nhấn lần nữa để thoát) |
 | `Esc` | thoát chế độ và xoá các khung số |
 
-[Hướng dẫn đầy đủ: Đánh dấu theo ảnh](/vi/guide/image-marking)
+[Hướng dẫn đầy đủ: Chế độ Image](/vi/guide/image-marking)
 
 ## Tính năng nhỏ {#smaller-features}
 
@@ -133,20 +133,20 @@ Xoá một marker bằng cách bấm vào nó, hoặc dọn cả trang một l�
 
 [Hướng dẫn đầy đủ: Xoá marker](/vi/guide/cleanup)
 
-### Ẩn lớp {#hide-layer}
+### Chế độ Hide Layer {#hide-layer}
 
 Banner cookie, thanh header dính hay một popup đang che chỗ bạn muốn đánh dấu? Ẩn nó bằng một cú bấm, đánh dấu phần bên dưới, rồi cho nó hiện lại khi xong. Không có gì trên trang bị xoá.
 
-<img class="sm-demo" src="/media/hide-layer.gif" alt="Ẩn lớp" loading="lazy" decoding="async">
+<img class="sm-demo" src="/media/hide-layer.gif" alt="Chế độ Hide Layer" loading="lazy" decoding="async">
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Alt + A` | bật / tắt chế độ ẩn, rồi bấm vào một lớp để ẩn nó |
+| `Alt + A` | bật / tắt chế độ Hide Layer, rồi bấm vào một lớp để ẩn nó |
 | `Ctrl + Shift + Alt + A` | cho mọi lớp đã ẩn hiện lại (một bước hoàn tác) |
 | `Ctrl + Z` | hoàn tác bước vừa rồi, kể cả một lần ẩn |
-| `Esc` | rời chế độ ẩn |
+| `Esc` | rời chế độ Hide Layer |
 
-[Hướng dẫn đầy đủ: Ẩn lớp](/vi/guide/hide-layer)
+[Hướng dẫn đầy đủ: Chế độ Hide Layer](/vi/guide/hide-layer)
 
 ### Đánh dấu chữ đã bôi đen {#mark-text}
 
@@ -163,7 +163,7 @@ Bôi đen một đoạn chữ, chuột phải, rồi đánh dấu đúng đoạn
 
 ### Màu marker {#colors}
 
-Cho mỗi chế độ đánh dấu một màu riêng, để marker phần tử, marker vẽ tự do và marker ghép dễ phân biệt chỉ bằng một cái nhìn.
+Cho mỗi chế độ đánh dấu một màu riêng, để marker Element, marker Free Draw và marker Merge dễ phân biệt chỉ bằng một cái nhìn.
 
 <img class="sm-demo" src="/media/colors.gif" alt="Màu marker" loading="lazy" decoding="async">
 
@@ -211,17 +211,17 @@ Mở popup gọn để chỉnh nhanh marker, hoặc trang Options đầy đủ c
 
 [Hướng dẫn đầy đủ: Popup và Options](/vi/guide/settings)
 
-### Theme giao diện {#themes}
+### Theme và ngôn ngữ {#themes}
 
-Đổi diện mạo của popup và trang Options. Có sẵn sáu theme, cả sáng lẫn tối. Marker trên trang web thì giống nhau ở mọi theme.
+Đổi diện mạo của popup và trang Options, và ngôn ngữ Smart Mark hiển thị. Có sẵn sáu theme, cả sáng lẫn tối, và 12 ngôn ngữ. Marker trên trang web thì giống nhau ở mọi theme.
 
-<img class="sm-demo" src="/media/themes.gif" alt="Theme giao diện" loading="lazy" decoding="async">
+<img class="sm-demo" src="/media/themes.gif" alt="Theme và ngôn ngữ" loading="lazy" decoding="async">
 
 | Phím | Tác dụng |
 | --- | --- |
 | `Ctrl + Alt + ,` | mở trang Options, nơi có ô chọn theme |
 
-[Hướng dẫn đầy đủ: Theme giao diện](/vi/guide/themes)
+[Hướng dẫn đầy đủ: Theme và ngôn ngữ](/vi/guide/themes)
 
 ### Tìm kiếm thiết lập {#settings-search}
 
@@ -244,7 +244,7 @@ Lưu toàn bộ thiết lập của bạn - mọi tuỳ chọn, các ô lưu mar
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Ctrl + Alt + ,` | mở trang Options, nơi có mục Profiles |
+| `Ctrl + Alt + ,` | mở trang Options, nơi có mục `Profile` (Profiles) |
 
 [Hướng dẫn đầy đủ: Profile và preset](/vi/guide/profiles)
 
@@ -280,8 +280,8 @@ Smart Mark không cản đường bạn: phím tắt tạm nghỉ khi bạn đan
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Ctrl + ,` | mở popup (Disable on this site nằm ở chân popup) |
-| `Ctrl + Alt + ,` | mở trang Options (mục Site access) |
+| `Ctrl + ,` | mở popup (`Tắt trên trang này` (Disable on this site) nằm ở chân popup) |
+| `Ctrl + Alt + ,` | mở trang Options (mục `Quyền theo trang` (Site access)) |
 
 [Hướng dẫn đầy đủ: Khi gõ chữ và tắt theo site](/vi/guide/site-control)
 
@@ -293,7 +293,7 @@ Smart Mark không ghi gì cho tới khi bạn cho phép. Khi có trục trặc, 
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Ctrl + Alt + ,` | mở trang Options, nơi có mục Diagnostics |
+| `Ctrl + Alt + ,` | mở trang Options, nơi có mục `Chẩn đoán` (Diagnostics) |
 
 [Hướng dẫn đầy đủ: Chẩn đoán và báo lỗi](/vi/guide/diagnostics)
 

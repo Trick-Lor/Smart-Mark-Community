@@ -19,12 +19,12 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## Step by step
 
-1. Open the Options page and expand Colors & Style. The live preview redraws with every change.
-2. Marker: line width (1-10 px), line style (solid, dashed, dotted), and fill opacity (0% keeps the classic outline-only look).
-3. Preview: width and fill of the outline you see while hovering or drawing, plus how dark (0-60%) and how blurred the page gets behind the dim layer during Free Draw and Merge.
-4. Per-mode previews: give Element, Free draw, Merge, and Clear their own preview width and line style instead of the shared one.
-5. Toast duration, fade, and position are under Notifications; undo depth (10-500 steps) is under Marker Configuration.
-6. Reset colors & style returns these values to the selected profile.
+1. Open the Options page and expand `Colors & Style`. The live preview redraws with every change.
+2. `Marker (placed)`: `Line width` (1-10 px), `Line style` (`Solid`, `Dashed`, `Dotted`), and `Fill opacity` (0% keeps the classic outline-only look).
+3. `Previews (hover / draw / merge / clear)`: width and fill of the outline you see while hovering or drawing, plus how dark (0-60%) and how blurred the page gets behind the dim layer during Free Draw and Merge.
+4. `Per-mode previews (width 0 = shared)`: give Element, Free Draw, Merge, and Remove their own preview width and line style instead of the shared one.
+5. `Toast duration`, `Toast fade`, and `Toast position` are under `Notifications`; `Undo depth` (10-500 steps) is under `Marker Configuration`.
+6. `Reset colors & style` returns these values to the selected profile.
 
 ## Highlighter look
 

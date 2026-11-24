@@ -16,12 +16,12 @@ _Video sẽ có sớm._
 
 ## Từng bước
 
-1. Nhấn `Alt + O` để xoay vòng hình dạng: Chữ nhật, Oval, Thoi.
-2. Nhấn `Alt + W` để xoay vòng cách ôm: Inscribe (nằm trong hộp), Median (ở giữa), Circumscribe (bao quanh hộp).
+1. Nhấn `Alt + O` để xoay vòng hình dạng: `Chữ nhật` (Rectangle), `Oval`, `Thoi` (Diamond).
+2. Nhấn `Alt + W` để xoay vòng cách ôm: `Inscribe` (nằm trong hộp), `Median` (ở giữa), `Circumscribe` (bao quanh hộp).
 3. Nhấn `Alt + =` hoặc `Alt + -` để nới hoặc thu hộp 5 px; giữ thêm `Ctrl` để đi từng 1 px.
-4. Nhấn `Alt + ]` hoặc `Alt + [` để bo góc tròn hơn hoặc vuông hơn 1 px (chỉ Chữ nhật và Thoi).
+4. Nhấn `Alt + ]` hoặc `Alt + [` để bo góc tròn hơn hoặc vuông hơn 1 px (chỉ `Chữ nhật` (Rectangle) và `Thoi` (Diamond)).
 5. Vẽ một marker - nó dùng hình dạng, cách ôm, lề và bo góc hiện tại.
-6. Options > Marker Configuration có các giá trị này, thêm Base offset: số pixel cố định cộng vào mọi marker, ngoài phần lề.
+6. Options > `Cấu hình marker` (Marker Configuration) có các giá trị này, thêm `Lề gốc` (Base offset): số pixel cố định cộng vào mọi marker, ngoài phần lề.
 
 ## Mẹo
 
@@ -32,8 +32,8 @@ _Video sẽ có sớm._
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Alt + O` | xoay vòng hình dạng: Chữ nhật, Oval, Thoi |
-| `Alt + W` | xoay vòng cách ôm: Inscribe, Median, Circumscribe |
+| `Alt + O` | xoay vòng hình dạng: `Chữ nhật` (Rectangle), `Oval`, `Thoi` (Diamond) |
+| `Alt + W` | xoay vòng cách ôm: `Inscribe`, `Median`, `Circumscribe` |
 | `Alt + =` | lề +5 px (thô) |
 | `Alt + -` | lề -5 px (thô) |
 | `Ctrl + Alt + =` | lề +1 px (tinh) |

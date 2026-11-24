@@ -18,8 +18,8 @@ Open a compact popup for quick marker settings, or the full Options page for eve
 1. Press `Ctrl + ,` to open the popup (or click the toolbar icon).
 2. In the popup: set shape, fit, and offset; see which slots are saved; view the live shortcut list.
 3. Press `Ctrl + Alt + ,` to open the full Options page in a new tab.
-4. In Options: Marker Configuration, Colors & Style, Marker Slots (delete one or all), Image Detection, Site access, Notifications, Keyboard Shortcuts, Appearance, Profiles, and Diagnostics.
-5. The popup footer has Disable on this site, a link to the Options page, and Help, which opens this guide.
+4. In Options: `Marker Configuration`, `Colors & Style`, `Marker Slots` (delete one or all), `Image Detection`, `Site access`, `Notifications`, `Keyboard Shortcuts`, `Appearance`, `Profiles`, and `Diagnostics`.
+5. The popup footer has `Disable on this site`, a link to the Options page, and `Help`, which opens this guide.
 
 ## The Options page
 
@@ -28,10 +28,10 @@ Open a compact popup for quick marker settings, or the full Options page for eve
 
 ## Reporting a problem
 
-1. Open Options and expand Diagnostics, then switch Record events on.
+1. Open Options and expand `Diagnostics`, then switch `Record events` on.
 2. Reproduce the problem.
-3. Come back to Diagnostics and press Copy report, then paste it into your bug report.
-4. Switch Record events off when you are done - that also deletes what was recorded.
+3. Come back to `Diagnostics` and press `Copy report`, then paste it into your bug report.
+4. Switch `Record events` off when you are done - that also deletes what was recorded.
 - The report stays on your device: it is only what Smart Mark itself did, with the extension version and your browser string. Nothing is sent anywhere.
 
 ## Tips

@@ -12,7 +12,7 @@ pageClass: sm-home
 
 Smart Mark lets you mark and highlight any element or area on a web page using keyboard shortcuts - outline elements, draw areas, and save layouts. Point with the mouse, act with the keys: no toolbar, no menus. No data collected; everything stays on your device.
 
-<div class="sm-actions"><a class="sm-button sm-button--brand" href="https://chromewebstore.google.com/detail/smart-mark/hpoalckkedhkjeanpkgjimcnljbddogl">Add to Chrome</a><a class="sm-button" href="https://github.com/Trick-Lor/smart-mark-community">Community on GitHub</a><a class="sm-button" href="#quick-start">Quick start</a></div>
+<div class="sm-actions"><a class="sm-button sm-button--brand" href="https://chromewebstore.google.com/detail/smart-mark/hpoalckkedhkjeanpkgjimcnljbddogl">Add to Chrome</a><a class="sm-button" href="https://github.com/Trick-Lor/smart-mark-community/issues">Feedback</a><a class="sm-button" href="#quick-start">Quick start</a></div>
 
 ## Quick start {#quick-start}
 
@@ -28,7 +28,7 @@ Smart Mark lets you mark and highlight any element or area on a web page using k
 
 Each block below sums up one feature; the link at the end of a block opens its full guide.
 
-### Element Marking {#element-marking}
+### Element Mode {#element-marking}
 
 Hover over any element on a web page - a button, image, card, or paragraph - and drop a clean box marker that hugs that element. Great for pointing things out in screenshots, bug reports, and tutorials.
 
@@ -39,33 +39,33 @@ Hover over any element on a web page - a button, image, card, or paragraph - and
 | `Ctrl + Shift + Z` | click to remove element markers |
 | `Ctrl + Shift + Alt + Z` | remove all element markers |
 
-[Full guide: Element Marking](/guide/element-marking)
+[Full guide: Element Mode](/guide/element-marking)
 
-### Free Draw {#free-draw}
+### Free Draw Mode {#free-draw}
 
 Draw a rectangular marker anywhere on the page, not tied to any element. Drag it out freely, or click two opposite corners for precision.
 
 | Keys | Action |
 | --- | --- |
-| `Alt + X` | turn on Free Draw mode (drag to draw) |
+| `Alt + X` | turn Free Draw mode on or off (drag to draw) |
 | `Shift + X` | switch to two-click corner mode |
-| `Ctrl + Shift + X` | click to remove free-draw markers |
-| `Ctrl + Shift + Alt + X` | remove all free-draw markers |
+| `Ctrl + Shift + X` | click to remove Free Draw markers |
+| `Ctrl + Shift + Alt + X` | remove all Free Draw markers |
 
-[Full guide: Free Draw](/guide/free-draw)
+[Full guide: Free Draw Mode](/guide/free-draw)
 
-### Element Merge {#element-merge}
+### Merge Mode {#element-merge}
 
 Mark a precise rectangular area defined by two elements. The box spans from the first element's top-left corner to the second element's bottom-right corner - perfect for marking a whole section that covers several elements.
 
 | Keys | Action |
 | --- | --- |
-| `Alt + Q` | turn on Merge mode, then click two elements |
+| `Alt + Q` | turn Merge mode on or off; press again after the first click to cancel |
 | `Ctrl + Shift + D` | click to remove any marker |
 | `Ctrl + Shift + Alt + D` | remove all markers on the page |
 | `Esc` | exit the mode |
 
-[Full guide: Element Merge](/guide/element-merge)
+[Full guide: Merge Mode](/guide/element-merge)
 
 ### Shape and Fit {#shape-and-fit}
 
@@ -73,14 +73,14 @@ Change the marker shape (Rectangle, Oval, Diamond) and how tightly it fits its t
 
 | Keys | Action |
 | --- | --- |
-| `Alt + O` | cycle shape: Rectangle, Oval, Diamond |
-| `Alt + W` | cycle fit: Inscribe, Median, Circumscribe |
+| `Alt + O` | cycle shape: `Rectangle`, `Oval`, `Diamond` |
+| `Alt + W` | cycle fit: `Inscribe`, `Median`, `Circumscribe` |
 | `Alt + =` | offset +5 px (coarse) |
 | `Alt + -` | offset -5 px (coarse) |
 
 [Full guide: Shape and Fit](/guide/shape-and-fit)
 
-### Image Marking {#image-marking}
+### Image Mode {#image-marking}
 
 When a page is one big image, a video, an SVG, or a screenshot, there is no element to hover. Image marking scans the page, finds the visual blocks, and lets you pick them by click or with one key.
 
@@ -89,7 +89,7 @@ When a page is one big image, a video, an SVG, or a screenshot, there is no elem
 | `Alt + I` | scan the page and show the numbered blocks (press again to leave) |
 | `Esc` | leave the mode and remove the numbered boxes |
 
-[Full guide: Image Marking](/guide/image-marking)
+[Full guide: Image Mode](/guide/image-marking)
 
 ## Smaller features {#smaller-features}
 
@@ -133,20 +133,20 @@ Remove one marker by clicking it, or clear the whole page at once - works across
 
 [Full guide: Remove Markers](/guide/cleanup)
 
-### Hide Layers {#hide-layer}
+### Hide Layer Mode {#hide-layer}
 
 A cookie banner, a sticky header, or a popup covers what you want to mark? Hide it with one click, mark what is under it, and bring it back when you are done. Nothing on the page is deleted.
 
-<img class="sm-demo" src="/media/hide-layer.gif" alt="Hide Layers" loading="lazy" decoding="async">
+<img class="sm-demo" src="/media/hide-layer.gif" alt="Hide Layer Mode" loading="lazy" decoding="async">
 
 | Keys | Action |
 | --- | --- |
-| `Alt + A` | toggle Hide mode, then click a layer to hide it |
+| `Alt + A` | toggle Hide Layer mode, then click a layer to hide it |
 | `Ctrl + Shift + Alt + A` | show every hidden layer again (one undo step) |
 | `Ctrl + Z` | undo the last step, a hide included |
-| `Esc` | leave Hide mode |
+| `Esc` | leave Hide Layer mode |
 
-[Full guide: Hide Layers](/guide/hide-layer)
+[Full guide: Hide Layer Mode](/guide/hide-layer)
 
 ### Mark Selected Text {#mark-text}
 
@@ -163,7 +163,7 @@ Select some text, right-click it, and mark exactly that text: as one box around 
 
 ### Marker Colors {#colors}
 
-Give each marking mode its own color, so element marks, free-draw marks, and merges are easy to tell apart at a glance.
+Give each marking mode its own color, so Element, Free Draw, and Merge markers are easy to tell apart at a glance.
 
 <img class="sm-demo" src="/media/colors.gif" alt="Marker Colors" loading="lazy" decoding="async">
 
@@ -211,17 +211,17 @@ Open a compact popup for quick marker settings, or the full Options page for eve
 
 [Full guide: Popup and Options](/guide/settings)
 
-### UI Themes {#themes}
+### Themes and Language {#themes}
 
-Change the look of the popup and the Options page. Six themes ship, light and dark. Markers on web pages look the same in all of them.
+Change the look of the popup and the Options page, and the language Smart Mark speaks. Six themes ship, light and dark; 12 languages. Markers on web pages look the same in all of them.
 
-<img class="sm-demo" src="/media/themes.gif" alt="UI Themes" loading="lazy" decoding="async">
+<img class="sm-demo" src="/media/themes.gif" alt="Themes and Language" loading="lazy" decoding="async">
 
 | Keys | Action |
 | --- | --- |
 | `Ctrl + Alt + ,` | open the Options page where the theme select lives |
 
-[Full guide: UI Themes](/guide/themes)
+[Full guide: Themes and Language](/guide/themes)
 
 ### Settings Search {#settings-search}
 
@@ -244,7 +244,7 @@ Save your whole set-up - every setting, your marker slots, and your presets - as
 
 | Keys | Action |
 | --- | --- |
-| `Ctrl + Alt + ,` | open the Options page where Profiles live |
+| `Ctrl + Alt + ,` | open the Options page where `Profiles` lives |
 
 [Full guide: Profiles and Presets](/guide/profiles)
 
@@ -280,8 +280,8 @@ Smart Mark stays out of your way: shortcuts pause while you type, a key is only 
 
 | Keys | Action |
 | --- | --- |
-| `Ctrl + ,` | open the popup (Disable on this site is in its footer) |
-| `Ctrl + Alt + ,` | open the Options page (Site access section) |
+| `Ctrl + ,` | open the popup (`Disable on this site` is in its footer) |
+| `Ctrl + Alt + ,` | open the Options page (`Site access` section) |
 
 [Full guide: Typing and Site Access](/guide/site-control)
 
@@ -293,7 +293,7 @@ Smart Mark records nothing until you ask it to. When something misbehaves, switc
 
 | Keys | Action |
 | --- | --- |
-| `Ctrl + Alt + ,` | open the Options page where Diagnostics lives |
+| `Ctrl + Alt + ,` | open the Options page where `Diagnostics` lives |
 
 [Full guide: Diagnostics and Bug Reports](/guide/diagnostics)
 

@@ -15,15 +15,15 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## Before you start
 
-- Open the Options page (`Ctrl + Alt + ,`) and expand Diagnostics.
+- Open the Options page (`Ctrl + Alt + ,`) and expand `Diagnostics`.
 
 ## Step by step
 
 1. Tick `Record events`. From now on Smart Mark stores its own recent activity in this browser. Ticking it right after a problem still catches that run, as long as you have not reloaded the page.
 2. Go back to the page and reproduce the problem once.
-3. Return to Options > Diagnostics and press `Copy report`. The report goes to your clipboard and into the box below the buttons, so you can select it by hand if the clipboard is blocked.
+3. Return to Options > `Diagnostics` and press `Copy report`. The report goes to your clipboard and into the box below the buttons, so you can select it by hand if the clipboard is blocked.
 4. Paste it into your bug report at the issue tracker.
-5. Untick `Record events` when you are done. That also deletes what was recorded; `Clear` deletes it without switching off.
+5. Untick `Record events` when you are done. That also deletes what was recorded; `Clear report` deletes it without switching off.
 
 ## What the report contains
 
@@ -48,6 +48,6 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 | Keys | Action |
 | --- | --- |
-| `Ctrl + Alt + ,` | open the Options page where Diagnostics lives |
+| `Ctrl + Alt + ,` | open the Options page where `Diagnostics` lives |
 
 The combos above are the defaults; every one of them can be rebound on the Options page.

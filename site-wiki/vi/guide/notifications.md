@@ -17,16 +17,16 @@ Một thẻ nhỏ nổi trên trang xác nhận mỗi lần đổi chế độ v
 
 1. Bật một chế độ bất kỳ - toast hiện ở cuối trang.
 2. Nhấn `Alt + T` để bật hoặc tắt toast.
-3. Options > Notifications: bật hoặc tắt toast và dòng tổ hợp phím trong toast, đặt Toast duration (0,5-5 giây), Toast fade và Toast position (dưới hoặc trên).
+3. Options > `Thông báo` (Notifications): bật hoặc tắt `Hiện toast` (Show toast) và `Kèm phím tắt` (Include shortcut), đặt `Thời gian toast` (Toast duration) (0,5-5 giây), `Mờ toast` (Toast fade) và `Vị trí toast` (Toast position) (`Dưới` (Bottom) hoặc `Trên` (Top)).
 
 ## Các thông báo khác
 
-- Desktop notifications: thông báo hệ thống khi Smart Mark bắt đầu nạp trên một trang và khi đã sẵn sàng. Mặc định bật; tắt trong Options > Notifications.
-- Hide toast và Hidden count badge: số lớp đã ẩn hiện sau mỗi lần ẩn, và con số trên biểu tượng thanh công cụ (xem Ẩn lớp).
+- `Thông báo máy tính` (Desktop notifications): thông báo hệ thống khi Smart Mark bắt đầu nạp trên một trang và khi đã sẵn sàng. Mặc định bật; tắt trong Options > `Thông báo` (Notifications).
+- `Toast khi ẩn` (Hide Layer toast) và `Số lớp ẩn trên icon` (Hidden count badge): số lớp đã ẩn hiện sau mỗi lần ẩn, và con số trên biểu tượng thanh công cụ (xem Chế độ Hide Layer).
 
 ## Mẹo
 
-- Toggle combo display và Toggle desktop notifications không có phím mặc định. Gán phím cho chúng trong Options > Keyboard Shortcuts nếu bạn hay bật tắt.
+- Toggle combo display và Toggle desktop notifications không có phím mặc định. Gán phím cho chúng trong Options > `Phím tắt` (Keyboard Shortcuts) nếu bạn hay bật tắt.
 
 ## Phím tắt dùng trong bài
 

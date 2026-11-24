@@ -21,8 +21,8 @@ Xoá một marker bằng cách bấm vào nó, hoặc dọn cả trang một l�
 
 ## Mẹo
 
-- Mỗi chế độ đánh dấu còn có phím xoá riêng: xem Đánh dấu phần tử và Vẽ tự do.
-- Xoá marker không làm hiện lại các lớp bạn đã ẩn; dùng `Ctrl + Shift + Alt + A` cho việc đó (xem Ẩn lớp).
+- Mỗi chế độ đánh dấu còn có phím xoá riêng: xem Chế độ Element và Chế độ Free Draw.
+- Xoá marker không làm hiện lại các lớp bạn đã ẩn; dùng `Ctrl + Shift + Alt + A` cho việc đó (xem Chế độ Hide Layer).
 
 ## Phím tắt dùng trong bài
 

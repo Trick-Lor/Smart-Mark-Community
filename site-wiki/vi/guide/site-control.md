@@ -30,19 +30,19 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 
 ## Tắt Smart Mark trên một site
 
-1. Mở popup và dùng Disable on this site ở chân popup, hoặc
-2. mở trang Options, mở rộng mục Site access, gõ tên miền rồi nhấn Add. Xoá một site cũng ở danh sách đó.
+1. Mở popup và dùng `Tắt trên trang này` (Disable on this site) ở chân popup, hoặc
+2. mở trang Options, mở rộng mục `Quyền theo trang` (Site access), gõ tên miền rồi nhấn `Thêm` (Add). Xoá một site cũng ở danh sách đó.
 3. Trên site có trong danh sách và các tên miền con của nó, mọi phím tắt đều tắt. Marker đã có trên trang vẫn hiển thị, và thay đổi áp dụng không cần tải lại.
 
 ## Tắt riêng một phím tắt
 
-- Trong Options > Keyboard Shortcuts, bỏ chọn ô của một phím tắt để tắt riêng phím đó. Tổ hợp phím của nó vẫn được giữ để dùng sau và hiện bị gạch ngang.
+- Trong Options > `Phím tắt` (Keyboard Shortcuts), bỏ chọn ô của một phím tắt để tắt riêng phím đó. Tổ hợp phím của nó vẫn được giữ để dùng sau và hiện bị gạch ngang.
 
 ## Phím tắt dùng trong bài
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Ctrl + ,` | mở popup (Disable on this site nằm ở chân popup) |
-| `Ctrl + Alt + ,` | mở trang Options (mục Site access) |
+| `Ctrl + ,` | mở popup (`Tắt trên trang này` (Disable on this site) nằm ở chân popup) |
+| `Ctrl + Alt + ,` | mở trang Options (mục `Quyền theo trang` (Site access)) |
 
 Các tổ hợp phím trên là mặc định; bạn có thể đổi từng phím trong trang Options.

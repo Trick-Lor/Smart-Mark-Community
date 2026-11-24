@@ -17,16 +17,16 @@ A small floating pill confirms each mode change and shortcut press, so you alway
 
 1. Trigger any mode - a toast appears at the bottom of the page.
 2. Press `Alt + T` to toggle the toast on or off.
-3. Options > Notifications: switch the toast and the key combo line inside it on or off, set Toast duration (0.5-5 s), Toast fade, and Toast position (bottom or top).
+3. Options > `Notifications`: switch `Show toast` and `Include shortcut` on or off, set `Toast duration` (0.5-5 s), `Toast fade`, and `Toast position` (`Bottom` or `Top`).
 
 ## Other notices
 
-- Desktop notifications: a system notification when Smart Mark starts loading on a page and when it is ready. On by default; switch it off in Options > Notifications.
-- Hide toast and Hidden count badge: the count shown after you hide a layer, and the number on the toolbar icon (see Hide Layers).
+- `Desktop notifications`: a system notification when Smart Mark starts loading on a page and when it is ready. On by default; switch it off in Options > `Notifications`.
+- `Hide Layer toast` and `Hidden count badge`: the count shown after you hide a layer, and the number on the toolbar icon (see Hide Layer Mode).
 
 ## Tips
 
-- Toggle combo display and Toggle desktop notifications have no default key. Give them one in Options > Keyboard Shortcuts if you switch them often.
+- Toggle combo display and Toggle desktop notifications have no default key. Give them one in Options > `Keyboard Shortcuts` if you switch them often.
 
 ## Shortcuts used here
 

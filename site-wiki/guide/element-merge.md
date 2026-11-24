@@ -1,9 +1,9 @@
 ---
-title: "Element Merge"
+title: "Merge Mode"
 description: "Mark a precise rectangular area defined by two elements."
 ---
 
-# Element Merge
+# Merge Mode
 
 Mark a precise rectangular area defined by two elements. The box spans from the first element's top-left corner to the second element's bottom-right corner - perfect for marking a whole section that covers several elements.
 
@@ -20,7 +20,8 @@ _Video coming soon._
 2. Click the first element. Smart Mark records its top-left corner and starts a live box.
 3. Move to a second element. An orange outline shows the span that will be marked.
 4. Click the second element. The marker now covers the area from element one's top-left to element two's bottom-right.
-5. Press `Esc` to exit when you are done.
+5. Changed your mind after the first click? Press `Alt + Q` again, or `Esc`, to cancel it.
+6. Press `Esc` to exit when you are done.
 
 ## Adjust (optional)
 
@@ -30,7 +31,7 @@ _Video coming soon._
 ## Undo and clean up
 
 - `Ctrl + Z` undo the last marker, `Ctrl + Y` redo.
-- `Ctrl + Shift + D`, then click a marker to remove just that one.
+- `Ctrl + Shift + D`, then click a marker to remove just that one. Press `Ctrl + Shift + D` again, or `Esc`, to leave remove mode.
 - `Ctrl + Shift + Alt + D` remove all markers on the page.
 
 ## Save your work
@@ -43,12 +44,13 @@ _Video coming soon._
 - Use this when one element box is too small - pick a start element and an end element to wrap the whole region.
 - The orange outline on the second pick shows the exact span before you commit.
 - A merge marker counts as an element marker: `Ctrl + Shift + Z` and `Ctrl + Shift + Alt + Z` remove it too.
+- Something covers the element you need? Hold `Alt` and click it to hide it first, exactly as in Element Mode (Hide what is in the way).
 
 ## Shortcuts used here
 
 | Keys | Action |
 | --- | --- |
-| `Alt + Q` | turn on Merge mode, then click two elements |
+| `Alt + Q` | turn Merge mode on or off; press again after the first click to cancel |
 | `Ctrl + Shift + D` | click to remove any marker |
 | `Ctrl + Shift + Alt + D` | remove all markers on the page |
 | `Esc` | exit the mode |

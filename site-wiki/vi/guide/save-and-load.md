@@ -22,9 +22,9 @@ Lưu các marker trên một trang vào một ô có số, rồi khôi phục b�
 
 ## Quản lý ô lưu
 
-- Options > Marker Slots: dấu x trên một ô xoá ô đó; Delete all slots xoá mọi ô sau khi bạn xác nhận.
-- Confirm overwrite: khi bật, lưu vào ô đã có marker phải nhấn lần hai trong vòng 3 giây; lần nhấn đầu chỉ hiện toast.
-- Slots shown (1-10) đặt số ô hiện trong popup và Options. Ô bị ẩn vẫn giữ phím tắt và dữ liệu.
+- Options > `Ô lưu marker` (Marker Slots): dấu x trên một ô xoá ô đó; `Xóa mọi ô` (Delete all slots) xoá mọi ô sau khi bạn xác nhận.
+- `Xác nhận ghi đè` (Confirm overwrite): khi bật, lưu vào ô đã có marker phải nhấn lần hai trong vòng 3 giây; lần nhấn đầu chỉ hiện toast.
+- `Số ô hiện` (Slots shown) (1-10) đặt số ô hiện trong popup và Options. Ô bị ẩn vẫn giữ phím tắt và dữ liệu.
 
 ## Khi nào marker mất
 

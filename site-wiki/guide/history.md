@@ -22,7 +22,7 @@ Step backward and forward through your marking actions, so a mistake is never mo
 ## Tips
 
 - With nothing to undo, `Ctrl + Z` goes to the page as usual (for example to undo your typing).
-- Undo depth (10-500 steps) is under Options > Marker Configuration.
+- `Undo depth` (10-500 steps) is under Options > `Marker Configuration`.
 
 ## Shortcuts used here
 

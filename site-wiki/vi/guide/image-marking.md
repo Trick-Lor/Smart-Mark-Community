@@ -1,9 +1,9 @@
 ---
-title: "Đánh dấu theo ảnh"
+title: "Chế độ Image"
 description: "Khi cả trang là một ảnh lớn, một video, một SVG hay một ảnh chụp màn hình thì không có phần tử nào để rê chuột."
 ---
 
-# Đánh dấu theo ảnh
+# Chế độ Image
 
 Khi cả trang là một ảnh lớn, một video, một SVG hay một ảnh chụp màn hình thì không có phần tử nào để rê chuột. Đánh dấu theo ảnh quét trang, tìm các khối nhìn thấy được và cho bạn chọn bằng cú bấm hoặc bằng một phím.
 
@@ -22,27 +22,27 @@ _Video sẽ có sớm._
 
 1. Nhấn `Alt + I`. Với cách chụp Screenshot, một toast hiện Capturing page 1/N trong lúc Smart Mark cuộn qua trang dài; sau đó trang mờ đi và một vạch quét chạy qua màn hình trong lúc phân tích.
 2. Mỗi khối tìm được có một khung tím kèm nhãn, và một toast báo tìm được bao nhiêu khối. No blocks found hoặc Page analysis failed nghĩa là không có gì để chọn; thử đổi thiết lập nhận diện.
-3. Bấm vào một khối, hoặc bấm phím nhãn của nó, để đặt marker lên khối đó. Chọn bao nhiêu khối cũng được.
+3. Bấm vào một khối, hoặc bấm phím nhãn của nó, để đặt marker lên khối đó. Chọn bao nhiêu khối cũng được; bấm lại một khối đã đánh dấu để bỏ marker của nó.
 4. Nhấn `Esc` để thoát chế độ. Các khung nhãn biến mất, marker của bạn vẫn còn.
 
 ## Chọn bằng phím
 
 - Các khối đang thấy trên màn hình được gắn nhãn theo thứ tự đọc (trên xuống, rồi trái sang phải) và gắn lại khi bạn cuộn.
 - Mặc định chín khối đầu mang nhãn `1`-`9`, các khối sau mang chữ `A`-`Z` (bỏ qua I và O). Bấm một phím là chọn ngay.
-- Thích dùng số? Đặt Label style thành Numbers trong trang Options. Khi đó, nếu có hơn 9 khối trên màn hình, gõ nhanh hai chữ số: `1` rồi `5` chọn khối 15; gõ riêng `0` chọn khối 10.
+- Thích dùng số? Đặt `Kiểu nhãn` (Label style) thành `Số (1, 2 ... 10, 11)` (Numbers (1, 2 ... 10, 11)) trong trang Options. Khi đó, nếu có hơn 9 khối trên màn hình, gõ nhanh hai chữ số: `1` rồi `5` chọn khối 15; gõ riêng `0` chọn khối 10.
 
 ## Tinh chỉnh việc nhận diện
 
-- Mở trang Options và mở rộng mục Image Detection.
-- Các thanh trượt Detail, Denoise, Color sensitivity (1-5) và Min block size quyết định thế nào thì tính là một khối. Advanced parameters hiện các giá trị gốc; Reset detection trả tất cả về như cũ.
-- Capture method: Screenshot (mặc định, chính xác từng điểm ảnh) hoặc Render (không cuộn trang).
-- Detection animation, Scan speed, Reveal animation (khối hiện dần theo vạch quét, hoặc hiện hết một lần lúc xong), Badge size, Hotkey labels và Label style đổi cách hiển thị lúc quét và cách bạn chọn khối.
-- Thử thiết lập trên ảnh của chính bạn: trong khung xem trước, dùng Load image, hoặc thả hay dán một ảnh chụp màn hình.
+- Mở trang Options và mở rộng mục `Nhận diện ảnh` (Image Detection).
+- Các thanh trượt `Chi tiết` (Detail), `Khử nhiễu` (Denoise), `Độ nhạy màu` (Color sensitivity) (1-5) và `Cỡ khối tối thiểu` (Min block size) quyết định thế nào thì tính là một khối. `Tham số nâng cao` (Advanced parameters) hiện các giá trị gốc; `Đặt lại nhận diện` (Reset detection) trả tất cả về như cũ.
+- `Cách chụp` (Capture method): `Screenshot (chính xác, có cuộn)` (Screenshot (exact, scrolls)) (mặc định, chính xác từng điểm ảnh) hoặc `Render (html2canvas)` (không cuộn trang).
+- `Hiệu ứng nhận diện` (Detection animation), `Tốc độ quét` (Scan speed), `Hiện dần` (Reveal animation) (khối hiện dần theo vạch quét, hoặc hiện hết một lần lúc xong), `Cỡ huy hiệu` (Badge size), `Nhãn phím tắt` (Hotkey labels) và `Kiểu nhãn` (Label style) đổi cách hiển thị lúc quét và cách bạn chọn khối.
+- Thử thiết lập trên ảnh của chính bạn: trong khung xem trước, dùng `Nạp ảnh` (Load image), hoặc thả hay dán một ảnh chụp màn hình.
 
 ## Mẹo
 
 - Marker tạo ở đây là marker bình thường: hoàn tác, làm lại, ô lưu và xoá tất cả đều dùng được.
-- Lớp bạn đã ẩn vẫn ẩn khi quét, nên hãy ẩn banner trước nếu nó che chỗ bạn cần (xem Ẩn lớp).
+- Lớp bạn đã ẩn vẫn ẩn khi quét, nên hãy ẩn banner trước nếu nó che chỗ bạn cần (xem Chế độ Hide Layer).
 - Việc phân tích chạy ngay trong trình duyệt của bạn. Ảnh của trang không bao giờ được tải lên đâu cả.
 
 ## Phím tắt dùng trong bài

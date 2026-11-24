@@ -22,7 +22,7 @@ Lùi và tiến qua từng thao tác đánh dấu, nên một lần lỡ tay ch�
 ## Mẹo
 
 - Khi không còn gì để hoàn tác, `Ctrl + Z` về lại trang như bình thường (ví dụ để hoàn tác chữ bạn gõ).
-- Số bước hoàn tác (10-500) nằm trong Options > Marker Configuration.
+- `Độ sâu hoàn tác` (Undo depth) (10-500) nằm trong Options > `Cấu hình marker` (Marker Configuration).
 
 ## Phím tắt dùng trong bài
 

@@ -30,19 +30,19 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## Turn Smart Mark off on a site
 
-1. Open the popup and use Disable on this site in the footer, or
-2. open the Options page, expand Site access, type a domain, and press Add. Remove a site from the same list.
+1. Open the popup and use `Disable on this site` in the footer, or
+2. open the Options page, expand `Site access`, type a domain, and press `Add`. Remove a site from the same list.
 3. On a listed site and its subdomains every shortcut is off. Markers already on the page stay visible, and the change applies without a reload.
 
 ## Switch off a single shortcut
 
-- In Options > Keyboard Shortcuts, untick the checkbox of a shortcut to switch only that one off. Its key combo is kept for later and shown struck through.
+- In Options > `Keyboard Shortcuts`, untick the checkbox of a shortcut to switch only that one off. Its key combo is kept for later and shown struck through.
 
 ## Shortcuts used here
 
 | Keys | Action |
 | --- | --- |
-| `Ctrl + ,` | open the popup (Disable on this site is in its footer) |
-| `Ctrl + Alt + ,` | open the Options page (Site access section) |
+| `Ctrl + ,` | open the popup (`Disable on this site` is in its footer) |
+| `Ctrl + Alt + ,` | open the Options page (`Site access` section) |
 
 The combos above are the defaults; every one of them can be rebound on the Options page.

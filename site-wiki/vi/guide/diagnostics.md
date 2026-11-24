@@ -15,15 +15,15 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 
 ## Trước khi bắt đầu
 
-- Mở trang Options (`Ctrl + Alt + ,`) và mở mục Diagnostics.
+- Mở trang Options (`Ctrl + Alt + ,`) và mở mục `Chẩn đoán` (Diagnostics).
 
 ## Từng bước
 
-1. Tích `Ghi sự kiện`. Từ lúc này Smart Mark lưu hoạt động gần đây của chính nó trong trình duyệt này. Tích ngay sau khi gặp lỗi vẫn bắt được lần chạy đó, miễn là bạn chưa tải lại trang.
+1. Tích `Ghi sự kiện` (Record events). Từ lúc này Smart Mark lưu hoạt động gần đây của chính nó trong trình duyệt này. Tích ngay sau khi gặp lỗi vẫn bắt được lần chạy đó, miễn là bạn chưa tải lại trang.
 2. Quay lại trang web và làm lại thao tác bị lỗi một lần.
-3. Trở về Options > Diagnostics rồi bấm `Chép báo cáo`. Báo cáo vào clipboard và hiện trong ô bên dưới, nên bạn vẫn bôi đen chép tay được nếu clipboard bị chặn.
+3. Trở về Options > `Chẩn đoán` (Diagnostics) rồi bấm `Chép báo cáo` (Copy report). Báo cáo vào clipboard và hiện trong ô bên dưới, nên bạn vẫn bôi đen chép tay được nếu clipboard bị chặn.
 4. Dán vào nội dung báo lỗi trên trang issue.
-5. Xong thì bỏ tích `Ghi sự kiện`. Bỏ tích cũng là xoá sạch phần đã ghi; nút `Xoá` xoá mà không tắt.
+5. Xong thì bỏ tích `Ghi sự kiện` (Record events). Bỏ tích cũng là xoá sạch phần đã ghi; nút `Xoá báo cáo` (Clear report) xoá mà không tắt.
 
 ## Trong báo cáo có gì
 
@@ -48,6 +48,6 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Ctrl + Alt + ,` | mở trang Options, nơi có mục Diagnostics |
+| `Ctrl + Alt + ,` | mở trang Options, nơi có mục `Chẩn đoán` (Diagnostics) |
 
 Các tổ hợp phím trên là mặc định; bạn có thể đổi từng phím trong trang Options.

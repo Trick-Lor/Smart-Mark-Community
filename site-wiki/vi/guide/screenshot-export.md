@@ -28,7 +28,7 @@ Có từ Smart Mark 1.1.0. Nếu bản bạn đang cài cũ hơn, tính năng n�
 ## Mẹo
 
 - Toast và các khung số của chế độ đánh dấu theo ảnh không xuất hiện trong ảnh.
-- Lớp bạn đã ẩn vẫn ẩn trong ảnh (xem Ẩn lớp).
+- Lớp bạn đã ẩn vẫn ẩn trong ảnh (xem Chế độ Hide Layer).
 - Ảnh được tạo ngay trong trình duyệt của bạn. Không có gì được tải lên.
 
 ## Phím tắt dùng trong bài

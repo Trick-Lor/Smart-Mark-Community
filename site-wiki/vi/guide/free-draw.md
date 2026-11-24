@@ -1,9 +1,9 @@
 ---
-title: "Vẽ tự do"
+title: "Chế độ Free Draw"
 description: "Vẽ một marker chữ nhật ở bất kỳ đâu trên trang, không phụ thuộc phần tử nào."
 ---
 
-# Vẽ tự do
+# Chế độ Free Draw
 
 Vẽ một marker chữ nhật ở bất kỳ đâu trên trang, không phụ thuộc phần tử nào. Kéo thả tự do, hoặc bấm hai góc đối diện để chính xác hơn.
 
@@ -18,23 +18,23 @@ _Video sẽ có sớm._
 
 1. Nhấn `Alt + X` để bật chế độ Free Draw.
 2. Bấm và kéo trên trang để vẽ một hình chữ nhật, thả chuột để đặt marker.
-3. Tuỳ chọn: nhấn `Shift + X` để chuyển sang chế độ hai lần bấm - bấm một góc, rồi bấm góc đối diện.
+3. Tuỳ chọn, khi cần hộp thật chính xác: đưa con trỏ tới góc thứ nhất rồi nhấn `Shift + X` - điểm đó được ghim lại. Sau đó click góc đối diện. Đặt xong marker đó thì chế độ quay về kéo thả; nhấn `Shift + X` lần nữa cho hộp hai góc tiếp theo.
 4. Lặp lại để vẽ thêm marker.
 5. Nhấn `Esc` để thoát khi xong.
 
 ## Chỉnh hình marker (tuỳ chọn)
 
-- `Alt + O` - đổi hình dạng: Chữ nhật, Oval hoặc Thoi.
-- `Alt + W` - đổi cách ôm: Inscribe, Median hoặc Circumscribe.
+- `Alt + O` - đổi hình dạng: `Chữ nhật` (Rectangle), `Oval` hoặc `Thoi` (Diamond).
+- `Alt + W` - đổi cách ôm: `Inscribe`, `Median` hoặc `Circumscribe`.
 - `Alt + =` / `Alt + -` - nới hoặc thu hộp 5 px.
-- `Alt + ]` / `Alt + [` - bo góc tròn hơn hoặc vuông hơn 1 px (Chữ nhật và Thoi).
-- Mở trang Options để đặt màu cho Free draw.
+- `Alt + ]` / `Alt + [` - bo góc tròn hơn hoặc vuông hơn 1 px (`Chữ nhật` (Rectangle) và `Thoi` (Diamond)).
+- Mở trang Options để đặt màu cho Free Draw.
 
 ## Hoàn tác và dọn dẹp
 
 - `Ctrl + Z` hoàn tác marker vừa đặt, `Ctrl + Y` làm lại.
-- `Ctrl + Shift + X`, rồi bấm vào một marker để xoá riêng nó.
-- `Ctrl + Shift + Alt + X` xoá mọi marker vẽ tự do cùng lúc.
+- `Ctrl + Shift + X`, rồi bấm vào một marker để xoá riêng nó. Nhấn `Ctrl + Shift + X` lần nữa, hoặc `Esc`, để thoát chế độ xoá.
+- `Ctrl + Shift + Alt + X` xoá mọi marker Free Draw cùng lúc.
 
 ## Lưu lại
 
@@ -50,10 +50,10 @@ _Video sẽ có sớm._
 
 | Phím | Tác dụng |
 | --- | --- |
-| `Alt + X` | bật chế độ Free Draw (kéo để vẽ) |
+| `Alt + X` | bật / tắt chế độ Free Draw (kéo để vẽ) |
 | `Shift + X` | chuyển sang chế độ bấm hai góc |
-| `Ctrl + Shift + X` | bấm để xoá marker vẽ tự do |
-| `Ctrl + Shift + Alt + X` | xoá mọi marker vẽ tự do |
+| `Ctrl + Shift + X` | bấm để xoá marker Free Draw |
+| `Ctrl + Shift + Alt + X` | xoá mọi marker Free Draw |
 | `Esc` | thoát chế độ |
 
 Các tổ hợp phím trên là mặc định; bạn có thể đổi từng phím trong trang Options.

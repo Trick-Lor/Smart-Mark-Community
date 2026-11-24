@@ -21,8 +21,8 @@ Remove one marker by clicking it, or clear the whole page at once - works across
 
 ## Tips
 
-- Each marking mode also has its own remove shortcuts: see Element Marking and Free Draw.
-- Clearing markers does not bring back layers you hid; use `Ctrl + Shift + Alt + A` for that (see Hide Layers).
+- Each marking mode also has its own remove shortcuts: see Element Mode and Free Draw.
+- Clearing markers does not bring back layers you hid; use `Ctrl + Shift + Alt + A` for that (see Hide Layer Mode).
 
 ## Shortcuts used here
 

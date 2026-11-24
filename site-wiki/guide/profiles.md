@@ -19,24 +19,24 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## Step by step
 
-1. Open the Options page and expand Profiles. The first time, Smart Mark creates a Default profile from your current settings.
-2. Change any setting. The profile bar shows modified (N), and See changes lists what differs. Nothing is written into the profile until you save.
-3. Save overwrites the selected profile and first shows a before / after list where you can leave any change out. Save as stores a new profile under a new name.
+1. Open the Options page and expand `Profiles`. The first time, Smart Mark creates a Default profile from your current settings.
+2. Change any setting. The profile bar shows modified (N), and `See changes` lists what differs. Nothing is written into the profile until you save.
+3. `Save` overwrites the selected profile and first shows a before / after list where you can leave any change out. `Save as...` stores a new profile under a new name.
 4. Pick another profile to switch. With unsaved changes you are asked to Save first, Discard, or Cancel, and you see the change list before anything is applied.
-5. Rename, Duplicate, and Delete act on the selected profile. Deleting removes its presets too.
+5. `Rename`, `Duplicate`, and `Delete` act on the selected profile. Deleting removes its presets too.
 
 ## Presets
 
 - A preset changes only a few settings. Five ship with Smart Mark: Defaults, Highlighter (35% yellow fill with a thin line), Bug report, High contrast, and Subtle.
 - Hover a preset row to see it in the live preview; Apply shows the change list first.
-- Copy to... puts a preset into another profile.
-- Restore default presets brings back a shipped preset you deleted.
+- `Copy to...` puts a preset into another profile.
+- `Restore default presets` brings back a shipped preset you deleted.
 
 ## Export and import
 
-- Export downloads the profile as a JSON file. Export with comments (.jsonc) writes a commented file; Export all downloads one file per profile.
-- Include marker slots decides whether your saved slots travel with the profile.
-- Import reads a profile or a preset file. A file with the same name overwrites the existing one after you confirm the change list.
+- `Export` downloads the profile as a JSON file. `Export with comments (.jsonc)` writes a commented file; `Export all` downloads one file per profile.
+- `Include marker slots` decides whether your saved slots travel with the profile.
+- `Import` reads a profile or a preset file. A file with the same name overwrites the existing one after you confirm the change list.
 - Unknown settings and out-of-range values are skipped with a warning; the rest of the file still loads.
 
 ## Tips
@@ -48,6 +48,6 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 | Keys | Action |
 | --- | --- |
-| `Ctrl + Alt + ,` | open the Options page where Profiles live |
+| `Ctrl + Alt + ,` | open the Options page where `Profiles` lives |
 
 The combos above are the defaults; every one of them can be rebound on the Options page.

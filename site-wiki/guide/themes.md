@@ -1,17 +1,17 @@
 ---
-title: "UI Themes"
-description: "Change the look of the popup and the Options page."
+title: "Themes and Language"
+description: "Change the look of the popup and the Options page, and the language Smart Mark speaks."
 ---
 
-# UI Themes
+# Themes and Language
 
-Change the look of the popup and the Options page. Six themes ship, light and dark. Markers on web pages look the same in all of them.
+Change the look of the popup and the Options page, and the language Smart Mark speaks. Six themes ship, light and dark; 12 languages. Markers on web pages look the same in all of them.
 
 ::: info
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-![UI Themes](/media/themes.gif)
+![Themes and Language](/media/themes.gif)
 
 ## Before you start
 
@@ -19,9 +19,16 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## Step by step
 
-1. Open the Options page and expand Appearance.
-2. Pick a UI Theme: Hand Drawn (default), Hand Drawn Dark, AI Vibe, AI Vibe Dark, Neon, or VS Code.
+1. Open the Options page and expand `Appearance`.
+2. Pick a `UI Theme`: `Hand Drawn Theme` (default), `Hand Drawn Dark Theme`, `AI Vibe Theme`, `AI Vibe Dark Theme`, `Neon Theme`, or `VS Code Theme`.
 3. The popup and every open Options tab switch right away - no reload.
+
+## Language
+
+1. In the same `Appearance` section, pick a `Language`: `Follow Chrome` (default) or one of 12 languages, each listed in its own name.
+2. Options, the popup, toasts on pages that are already open and the right-click menu switch at once - no reload.
+- Follow Chrome uses the language Chrome shows its own menus in. A text that is not translated yet shows in English.
+- The extension name in chrome://extensions and on the Web Store still follows Chrome.
 
 ## Tips
 

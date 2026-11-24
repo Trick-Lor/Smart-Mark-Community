@@ -1,9 +1,9 @@
 ---
-title: "Hide Layers"
+title: "Hide Layer Mode"
 description: "A cookie banner, a sticky header, or a popup covers what you want to mark?"
 ---
 
-# Hide Layers
+# Hide Layer Mode
 
 A cookie banner, a sticky header, or a popup covers what you want to mark? Hide it with one click, mark what is under it, and bring it back when you are done. Nothing on the page is deleted.
 
@@ -11,7 +11,7 @@ A cookie banner, a sticky header, or a popup covers what you want to mark? Hide 
 Available from Smart Mark 1.1.0. If your installed version is older, this feature arrives with the next Chrome Web Store update.
 :::
 
-![Hide Layers](/media/hide-layer.gif)
+![Hide Layer Mode](/media/hide-layer.gif)
 
 ## Before you start
 
@@ -20,21 +20,22 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 ## Step by step
 
-1. Press `Alt + A` to turn on Hide mode. The element under the mouse gets a red box with a big X.
+1. Press `Alt + A` to turn on Hide Layer mode. The element under the mouse gets a red box with a big X.
 2. Click to hide it. A toast shows how many layers are hidden, and the number also shows on the toolbar icon.
 3. Mark what was underneath with any marking mode.
-4. Press `Alt + A` again or `Esc` to leave Hide mode. Hidden layers stay hidden.
+4. Press `Alt + A` again or `Esc` to leave Hide Layer mode. Hidden layers stay hidden.
 5. `Ctrl + Z` undoes a hide like any marker step, and `Ctrl + Y` redoes it. `Ctrl + Shift + Alt + A` shows every hidden layer at once.
 
 ## Hide while you mark
 
 - In Element mode (`Alt + Z`) or Merge mode (`Alt + Q`), hold `Alt`: after a short delay the preview turns red. `Alt` + click hides; a plain click marks as usual.
 - Hit the wrong element? Keep the key held and roll the mouse wheel up to move to the parent element, down to go back. The page does not scroll meanwhile.
+- In Hide Layer mode (`Alt + A`) the wheel climbs only while you hold `Alt` (or your hide modifier); without it the page scrolls as usual.
 
 ## Settings
 
-- Options > Marker Configuration > Hide layer: Hide from pick modes (on / off), Hide modifier (Alt, Shift, or Ctrl), Climb to parent (Mouse wheel, Arrow up / down, Plus / minus, or Custom shortcuts), and Hide preview delay (default 300 ms).
-- Options > Notifications: Hide toast and Hidden count badge. Options > Colors & Style: Hide preview color.
+- Options > `Marker Configuration` > `Hide Layer`: `Hide in Element and Merge` (on / off), `Hide modifier` (`Alt`, `Shift`, or `Ctrl`), `Climb to parent` (`Mouse wheel`, `Arrow up / down`, `Plus / minus`, or `Custom shortcuts`), and `Hide preview delay` (default 300 ms).
+- Options > `Notifications`: `Hide Layer toast` and `Hidden count badge`. Options > `Colors & Style`: `Hide preview`.
 
 ## Tips
 
@@ -46,9 +47,9 @@ Available from Smart Mark 1.1.0. If your installed version is older, this featur
 
 | Keys | Action |
 | --- | --- |
-| `Alt + A` | toggle Hide mode, then click a layer to hide it |
+| `Alt + A` | toggle Hide Layer mode, then click a layer to hide it |
 | `Ctrl + Shift + Alt + A` | show every hidden layer again (one undo step) |
 | `Ctrl + Z` | undo the last step, a hide included |
-| `Esc` | leave Hide mode |
+| `Esc` | leave Hide Layer mode |
 
 The combos above are the defaults; every one of them can be rebound on the Options page.

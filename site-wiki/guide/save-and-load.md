@@ -22,9 +22,9 @@ Save the markers on a page into a numbered slot, then restore them any time - up
 
 ## Manage slots
 
-- Options > Marker Slots: the x on a slot tile deletes that slot; Delete all slots wipes every slot after you confirm.
-- Confirm overwrite: saving into a slot that already holds markers then needs a second press within 3 seconds; the first press only shows a toast.
-- Slots shown (1-10) sets how many tiles the popup and Options show. Hidden slots keep their shortcuts and their data.
+- Options > `Marker Slots`: the x on a slot tile deletes that slot; `Delete all slots` wipes every slot after you confirm.
+- `Confirm overwrite`: saving into a slot that already holds markers then needs a second press within 3 seconds; the first press only shows a toast.
+- `Slots shown` (1-10) sets how many tiles the popup and Options show. Hidden slots keep their shortcuts and their data.
 
 ## When markers go away
 

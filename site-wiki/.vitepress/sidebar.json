@@ -4,15 +4,15 @@
       "text": "Core features",
       "items": [
         {
-          "text": "Element Marking",
+          "text": "Element Mode",
           "link": "/guide/element-marking"
         },
         {
-          "text": "Free Draw",
+          "text": "Free Draw Mode",
           "link": "/guide/free-draw"
         },
         {
-          "text": "Element Merge",
+          "text": "Merge Mode",
           "link": "/guide/element-merge"
         },
         {
@@ -20,7 +20,7 @@
           "link": "/guide/shape-and-fit"
         },
         {
-          "text": "Image Marking",
+          "text": "Image Mode",
           "link": "/guide/image-marking"
         }
       ]
@@ -41,7 +41,7 @@
           "link": "/guide/cleanup"
         },
         {
-          "text": "Hide Layers",
+          "text": "Hide Layer Mode",
           "link": "/guide/hide-layer"
         },
         {
@@ -65,7 +65,7 @@
           "link": "/guide/settings"
         },
         {
-          "text": "UI Themes",
+          "text": "Themes and Language",
           "link": "/guide/themes"
         },
         {
@@ -104,15 +104,15 @@
       "text": "Tính năng chính",
       "items": [
         {
-          "text": "Đánh dấu phần tử",
+          "text": "Chế độ Element",
           "link": "/vi/guide/element-marking"
         },
         {
-          "text": "Vẽ tự do",
+          "text": "Chế độ Free Draw",
           "link": "/vi/guide/free-draw"
         },
         {
-          "text": "Ghép phần tử",
+          "text": "Chế độ Merge",
           "link": "/vi/guide/element-merge"
         },
         {
@@ -120,7 +120,7 @@
           "link": "/vi/guide/shape-and-fit"
         },
         {
-          "text": "Đánh dấu theo ảnh",
+          "text": "Chế độ Image",
           "link": "/vi/guide/image-marking"
         }
       ]
@@ -141,7 +141,7 @@
           "link": "/vi/guide/cleanup"
         },
         {
-          "text": "Ẩn lớp",
+          "text": "Chế độ Hide Layer",
           "link": "/vi/guide/hide-layer"
         },
         {
@@ -165,7 +165,7 @@
           "link": "/vi/guide/settings"
         },
         {
-          "text": "Theme giao diện",
+          "text": "Theme và ngôn ngữ",
           "link": "/vi/guide/themes"
         },
         {
