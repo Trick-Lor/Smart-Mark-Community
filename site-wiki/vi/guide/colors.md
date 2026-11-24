@@ -17,7 +17,7 @@ Cho mỗi chế độ đánh dấu một màu riêng, để marker Element, mark
 
 1. Mở trang Options và mở rộng mục `Màu & Kiểu dáng` (Colors & Style).
 2. Chọn màu cho từng chế độ: `Marker`, Element, Free Draw, Merge, Remove, Image và `Xem trước khi ẩn` (Hide preview).
-3. `Khung định vị` (Locating outline) có màu riêng: `Khung` (Outline) (hộp trên phần tử thật khi bạn chọn) và `Khung vùng merge` (Merge span outline), kèm `Độ dày khung` (Outline width).
+3. `Khung định vị` (Locating outline) có màu riêng: `Khung` (Outline) (hộp trên phần tử thật khi bạn chọn) và `Khung vùng Merge` (Merge span outline), kèm `Độ dày khung` (Outline width).
 4. `Lớp phủ` (Overlay) đặt màu lớp phủ tối trên trang trong lúc Free Draw và Merge.
 5. Thay đổi áp dụng ngay - bản xem trước, viền và marker tương ứng đều đổi sang màu đã chọn.
 6. `Định dạng màu` (Color format) quyết định mọi ô màu hiện và nhận giá trị thế nào: chữ HEX, hoặc số RGB / HSL.
